@@ -1,0 +1,122 @@
+{"timestamp":"2025-10-01T16:10:19.699Z","level":"START","message":"Khởi tạo crawler...","data":null}
+{"timestamp":"2025-10-01T16:10:22.547Z","level":"SUCCESS","message":"Browser đã được khởi tạo","data":null}
+{"timestamp":"2025-10-01T16:10:22.549Z","level":"INFO","message":"Đang crawl trang 1...","data":null}
+{"timestamp":"2025-10-01T16:10:30.601Z","level":"ERROR","message":"Lỗi khi crawl dữ liệu:","data":"net::ERR_TIMED_OUT at https://msu.io/marketplace/nft"}
+{"timestamp":"2025-10-01T16:10:30.603Z","level":"ERROR","message":"Lỗi trong quá trình crawl:","data":{}}
+{"timestamp":"2025-10-01T16:11:17.647Z","level":"START","message":"Khởi tạo crawler...","data":null}
+{"timestamp":"2025-10-01T16:11:18.541Z","level":"SUCCESS","message":"Browser đã được khởi tạo","data":null}
+{"timestamp":"2025-10-01T16:11:18.542Z","level":"INFO","message":"Đang crawl trang 1...","data":null}
+{"timestamp":"2025-10-01T16:11:26.556Z","level":"ERROR","message":"Lỗi khi crawl dữ liệu:","data":"net::ERR_TIMED_OUT at https://msu.io/marketplace/nft"}
+{"timestamp":"2025-10-01T16:11:26.557Z","level":"ERROR","message":"Lỗi trong quá trình crawl:","data":{}}
+{"timestamp":"2025-10-01T16:12:48.370Z","level":"START","message":"Khởi tạo crawler...","data":null}
+{"timestamp":"2025-10-01T16:12:49.078Z","level":"SUCCESS","message":"Browser đã được khởi tạo","data":null}
+{"timestamp":"2025-10-01T16:12:49.079Z","level":"INFO","message":"Đang crawl trang 1...","data":null}
+{"timestamp":"2025-10-01T16:12:54.123Z","level":"INFO","message":"Đang trích xuất dữ liệu NFT...","data":null}
+{"timestamp":"2025-10-01T16:12:54.131Z","level":"SUCCESS","message":"Trang 1: lấy được 135 items","data":null}
+{"timestamp":"2025-10-01T16:12:55.641Z","level":"INFO","message":"Đang crawl trang 2...","data":null}
+{"timestamp":"2025-10-01T16:12:58.727Z","level":"INFO","message":"Đang trích xuất dữ liệu NFT...","data":null}
+{"timestamp":"2025-10-01T16:12:58.747Z","level":"SUCCESS","message":"Trang 2: lấy được 135 items","data":null}
+{"timestamp":"2025-10-01T16:13:01.182Z","level":"INFO","message":"Đang crawl trang 3...","data":null}
+{"timestamp":"2025-10-01T16:13:04.042Z","level":"INFO","message":"Đang trích xuất dữ liệu NFT...","data":null}
+{"timestamp":"2025-10-01T16:13:04.066Z","level":"SUCCESS","message":"Trang 3: lấy được 135 items","data":null}
+{"timestamp":"2025-10-01T16:13:05.509Z","level":"SUCCESS","message":"Đã lưu dữ liệu vào: data\\nft_data.json","data":null}
+{"timestamp":"2025-10-01T16:13:05.510Z","level":"COMPLETE","message":"Crawl hoàn thành!","data":{"totalNFTs":405}}
+{"timestamp":"2025-10-01T16:13:05.869Z","level":"INFO","message":"Browser đã được đóng","data":null}
+{"timestamp":"2025-10-01T16:27:54.352Z","level":"START","message":"Khởi tạo crawler nhân vật...","data":null}
+{"timestamp":"2025-10-01T16:27:54.867Z","level":"SUCCESS","message":"Browser đã được khởi tạo","data":null}
+{"timestamp":"2025-10-01T16:27:54.868Z","level":"INFO","message":"Đang crawl trang 1 nhân vật...","data":null}
+{"timestamp":"2025-10-01T16:29:25.744Z","level":"START","message":"Khởi tạo crawler nhân vật...","data":null}
+{"timestamp":"2025-10-01T16:29:26.229Z","level":"SUCCESS","message":"Browser đã được khởi tạo","data":null}
+{"timestamp":"2025-10-01T16:29:26.229Z","level":"INFO","message":"Đang crawl trang 1 nhân vật...","data":null}
+{"timestamp":"2025-10-01T16:29:31.365Z","level":"WARNING","message":"Không tìm thấy nhân vật ở trang 1, dừng crawl.","data":null}
+{"timestamp":"2025-10-01T16:29:31.365Z","level":"ERROR","message":"Lỗi khi lưu dữ liệu nhân vật:","data":"The \"path\" argument must be of type string. Received undefined"}
+{"timestamp":"2025-10-01T16:29:31.366Z","level":"COMPLETE","message":"Crawl nhân vật hoàn thành!","data":{"totalCharacters":0}}
+{"timestamp":"2025-10-01T16:29:37.865Z","level":"START","message":"Khởi tạo crawler nhân vật...","data":null}
+{"timestamp":"2025-10-01T16:29:38.415Z","level":"SUCCESS","message":"Browser đã được khởi tạo","data":null}
+{"timestamp":"2025-10-01T16:29:38.415Z","level":"INFO","message":"Đang crawl trang 1 nhân vật...","data":null}
+{"timestamp":"2025-10-01T16:29:51.787Z","level":"WARNING","message":"Không tìm thấy nhân vật ở trang 1, dừng crawl.","data":null}
+{"timestamp":"2025-10-01T16:29:51.789Z","level":"ERROR","message":"Lỗi khi lưu dữ liệu nhân vật:","data":"The \"path\" argument must be of type string. Received undefined"}
+{"timestamp":"2025-10-01T16:29:51.790Z","level":"COMPLETE","message":"Crawl nhân vật hoàn thành!","data":{"totalCharacters":0}}
+{"timestamp":"2025-10-01T16:31:29.547Z","level":"START","message":"Khởi tạo crawler...","data":null}
+{"timestamp":"2025-10-01T16:31:30.036Z","level":"SUCCESS","message":"Browser đã được khởi tạo","data":null}
+{"timestamp":"2025-10-01T16:31:30.036Z","level":"INFO","message":"Đang crawl trang 1...","data":null}
+{"timestamp":"2025-10-01T16:31:32.107Z","level":"ERROR","message":"Lỗi khi crawl dữ liệu:","data":"Navigating frame was detached"}
+{"timestamp":"2025-10-01T16:31:32.108Z","level":"ERROR","message":"Lỗi trong quá trình crawl:","data":{}}
+{"timestamp":"2025-10-01T16:31:37.491Z","level":"START","message":"Khởi tạo crawler nhân vật...","data":null}
+{"timestamp":"2025-10-01T16:31:37.982Z","level":"SUCCESS","message":"Browser đã được khởi tạo","data":null}
+{"timestamp":"2025-10-01T16:31:37.983Z","level":"INFO","message":"Đang crawl trang 1 nhân vật...","data":null}
+{"timestamp":"2025-10-01T16:31:52.607Z","level":"WARNING","message":"Không tìm thấy nhân vật ở trang 1, dừng crawl.","data":null}
+{"timestamp":"2025-10-01T16:31:52.611Z","level":"ERROR","message":"Lỗi khi lưu dữ liệu nhân vật:","data":"The \"path\" argument must be of type string. Received undefined"}
+{"timestamp":"2025-10-01T16:31:52.614Z","level":"COMPLETE","message":"Crawl nhân vật hoàn thành!","data":{"totalCharacters":0}}
+{"timestamp":"2025-10-01T16:34:21.878Z","level":"START","message":"Khởi tạo crawler nhân vật...","data":null}
+{"timestamp":"2025-10-01T16:34:22.335Z","level":"SUCCESS","message":"Browser đã được khởi tạo","data":null}
+{"timestamp":"2025-10-01T16:34:22.336Z","level":"INFO","message":"Đang crawl trang 1 nhân vật...","data":null}
+{"timestamp":"2025-10-01T16:34:26.780Z","level":"INFO","message":"Đang trích xuất dữ liệu nhân vật...","data":null}
+{"timestamp":"2025-10-01T16:34:26.785Z","level":"SUCCESS","message":"Trang 1: lấy được 135 nhân vật","data":null}
+{"timestamp":"2025-10-01T16:34:29.011Z","level":"ERROR","message":"Lỗi khi lưu dữ liệu nhân vật:","data":"The \"path\" argument must be of type string. Received undefined"}
+{"timestamp":"2025-10-01T16:34:29.012Z","level":"COMPLETE","message":"Crawl nhân vật hoàn thành!","data":{"totalCharacters":135}}
+{"timestamp":"2025-10-01T16:36:52.559Z","level":"START","message":"Khởi tạo crawler nhân vật...","data":null}
+{"timestamp":"2025-10-01T16:36:53.051Z","level":"SUCCESS","message":"Browser đã được khởi tạo","data":null}
+{"timestamp":"2025-10-01T16:36:53.052Z","level":"INFO","message":"Đang crawl trang 1 nhân vật...","data":null}
+{"timestamp":"2025-10-01T16:36:59.684Z","level":"INFO","message":"Đang trích xuất dữ liệu nhân vật...","data":null}
+{"timestamp":"2025-10-01T16:36:59.690Z","level":"SUCCESS","message":"Trang 1: lấy được 135 nhân vật","data":null}
+{"timestamp":"2025-10-01T16:37:01.129Z","level":"ERROR","message":"Lỗi khi lưu dữ liệu nhân vật:","data":"The \"path\" argument must be of type string. Received undefined"}
+{"timestamp":"2025-10-01T16:37:01.131Z","level":"COMPLETE","message":"Crawl nhân vật hoàn thành!","data":{"totalCharacters":135}}
+{"timestamp":"2025-10-01T16:38:34.407Z","level":"START","message":"Khởi tạo crawler nhân vật...","data":null}
+{"timestamp":"2025-10-01T16:38:34.891Z","level":"SUCCESS","message":"Browser đã được khởi tạo","data":null}
+{"timestamp":"2025-10-01T16:38:34.892Z","level":"INFO","message":"Đang crawl trang 1 nhân vật...","data":null}
+{"timestamp":"2025-10-01T16:38:39.252Z","level":"INFO","message":"Đang trích xuất dữ liệu nhân vật...","data":null}
+{"timestamp":"2025-10-01T16:38:39.258Z","level":"SUCCESS","message":"Trang 1: lấy được 135 nhân vật","data":null}
+{"timestamp":"2025-10-01T16:38:40.478Z","level":"ERROR","message":"Lỗi khi lưu dữ liệu nhân vật:","data":"The \"path\" argument must be of type string. Received undefined"}
+{"timestamp":"2025-10-01T16:38:40.480Z","level":"COMPLETE","message":"Crawl nhân vật hoàn thành!","data":{"totalCharacters":135}}
+{"timestamp":"2025-10-01T16:40:03.576Z","level":"START","message":"Khởi tạo crawler nhân vật...","data":null}
+{"timestamp":"2025-10-01T16:40:04.040Z","level":"SUCCESS","message":"Browser đã được khởi tạo","data":null}
+{"timestamp":"2025-10-01T16:40:04.040Z","level":"INFO","message":"Đang crawl trang 1 nhân vật...","data":null}
+{"timestamp":"2025-10-01T16:40:08.504Z","level":"INFO","message":"Đang trích xuất dữ liệu nhân vật...","data":null}
+{"timestamp":"2025-10-01T16:41:01.934Z","level":"START","message":"Khởi tạo crawler nhân vật...","data":null}
+{"timestamp":"2025-10-01T16:41:02.399Z","level":"SUCCESS","message":"Browser đã được khởi tạo","data":null}
+{"timestamp":"2025-10-01T16:41:02.399Z","level":"INFO","message":"Đang crawl trang 1 nhân vật...","data":null}
+{"timestamp":"2025-10-01T16:41:06.813Z","level":"INFO","message":"Đang trích xuất dữ liệu nhân vật...","data":null}
+{"timestamp":"2025-10-01T16:41:06.818Z","level":"SUCCESS","message":"Trang 1: lấy được 135 nhân vật","data":null}
+{"timestamp":"2025-10-01T16:41:08.485Z","level":"ERROR","message":"Lỗi khi lưu dữ liệu nhân vật:","data":"The \"path\" argument must be of type string. Received undefined"}
+{"timestamp":"2025-10-01T16:41:08.486Z","level":"COMPLETE","message":"Crawl nhân vật hoàn thành!","data":{"totalCharacters":135}}
+{"timestamp":"2025-10-01T16:41:29.587Z","level":"START","message":"Khởi tạo crawler nhân vật...","data":null}
+{"timestamp":"2025-10-01T16:41:30.039Z","level":"SUCCESS","message":"Browser đã được khởi tạo","data":null}
+{"timestamp":"2025-10-01T16:41:30.040Z","level":"INFO","message":"Đang crawl trang 1 nhân vật...","data":null}
+{"timestamp":"2025-10-01T16:41:36.447Z","level":"INFO","message":"Đang trích xuất dữ liệu nhân vật...","data":null}
+{"timestamp":"2025-10-01T16:41:36.496Z","level":"SUCCESS","message":"Trang 1: lấy được 135 nhân vật","data":null}
+{"timestamp":"2025-10-01T16:41:37.616Z","level":"ERROR","message":"Lỗi khi lưu dữ liệu nhân vật:","data":"The \"path\" argument must be of type string. Received undefined"}
+{"timestamp":"2025-10-01T16:41:37.617Z","level":"COMPLETE","message":"Crawl nhân vật hoàn thành!","data":{"totalCharacters":135}}
+{"timestamp":"2025-10-01T16:42:46.351Z","level":"START","message":"Khởi tạo crawler nhân vật...","data":null}
+{"timestamp":"2025-10-01T16:42:46.913Z","level":"SUCCESS","message":"Browser đã được khởi tạo","data":null}
+{"timestamp":"2025-10-01T16:42:46.914Z","level":"INFO","message":"Đang crawl trang 1 nhân vật...","data":null}
+{"timestamp":"2025-10-01T16:42:50.438Z","level":"INFO","message":"Đang trích xuất dữ liệu nhân vật...","data":null}
+{"timestamp":"2025-10-01T16:42:50.470Z","level":"SUCCESS","message":"Trang 1: lấy được 135 nhân vật","data":null}
+{"timestamp":"2025-10-01T16:42:51.549Z","level":"ERROR","message":"Lỗi khi lưu dữ liệu nhân vật:","data":"The \"path\" argument must be of type string. Received undefined"}
+{"timestamp":"2025-10-01T16:42:51.550Z","level":"COMPLETE","message":"Crawl nhân vật hoàn thành!","data":{"totalCharacters":135}}
+{"timestamp":"2025-10-01T16:44:32.969Z","level":"START","message":"Khởi tạo crawler...","data":null}
+{"timestamp":"2025-10-01T16:44:33.455Z","level":"SUCCESS","message":"Browser đã được khởi tạo","data":null}
+{"timestamp":"2025-10-01T16:44:33.456Z","level":"INFO","message":"Đang crawl trang 1...","data":null}
+{"timestamp":"2025-10-01T16:44:35.965Z","level":"ERROR","message":"Lỗi khi crawl dữ liệu:","data":"Navigating frame was detached"}
+{"timestamp":"2025-10-01T16:44:35.967Z","level":"ERROR","message":"Lỗi trong quá trình crawl:","data":{}}
+{"timestamp":"2025-10-01T16:44:39.232Z","level":"START","message":"Khởi tạo crawler nhân vật...","data":null}
+{"timestamp":"2025-10-01T16:44:39.714Z","level":"SUCCESS","message":"Browser đã được khởi tạo","data":null}
+{"timestamp":"2025-10-01T16:44:39.714Z","level":"INFO","message":"Đang crawl trang 1 nhân vật...","data":null}
+{"timestamp":"2025-10-01T16:44:44.290Z","level":"INFO","message":"Đang trích xuất dữ liệu nhân vật...","data":null}
+{"timestamp":"2025-10-01T16:44:44.321Z","level":"SUCCESS","message":"Trang 1: lấy được 135 nhân vật","data":null}
+{"timestamp":"2025-10-01T16:44:45.544Z","level":"ERROR","message":"Lỗi khi lưu dữ liệu nhân vật:","data":{"code":"ERR_INVALID_ARG_TYPE"}}
+{"timestamp":"2025-10-01T16:44:45.553Z","level":"COMPLETE","message":"Crawl nhân vật hoàn thành!","data":{"totalCharacters":135}}
+{"timestamp":"2025-10-01T16:47:50.582Z","level":"START","message":"Khởi tạo crawler nhân vật...","data":null}
+{"timestamp":"2025-10-01T16:47:51.125Z","level":"SUCCESS","message":"Browser đã được khởi tạo","data":null}
+{"timestamp":"2025-10-01T16:47:51.125Z","level":"INFO","message":"Đang crawl trang 1 nhân vật...","data":null}
+{"timestamp":"2025-10-01T16:47:54.644Z","level":"INFO","message":"Đang trích xuất dữ liệu nhân vật...","data":null}
+{"timestamp":"2025-10-01T16:47:54.676Z","level":"SUCCESS","message":"Trang 1: lấy được 135 nhân vật","data":null}
+{"timestamp":"2025-10-01T16:47:57.253Z","level":"ERROR","message":"Lỗi khi lưu dữ liệu nhân vật:","data":{"code":"ERR_INVALID_ARG_TYPE"}}
+{"timestamp":"2025-10-01T16:47:57.261Z","level":"COMPLETE","message":"Crawl nhân vật hoàn thành!","data":{"totalCharacters":135}}
+{"timestamp":"2025-10-01T16:48:48.677Z","level":"START","message":"Khởi tạo crawler nhân vật...","data":null}
+{"timestamp":"2025-10-01T16:48:49.130Z","level":"SUCCESS","message":"Browser đã được khởi tạo","data":null}
+{"timestamp":"2025-10-01T16:48:49.130Z","level":"INFO","message":"Đang crawl trang 1 nhân vật...","data":null}
+{"timestamp":"2025-10-01T16:48:53.406Z","level":"INFO","message":"Đang trích xuất dữ liệu nhân vật...","data":null}
+{"timestamp":"2025-10-01T16:48:53.438Z","level":"SUCCESS","message":"Trang 1: lấy được 135 nhân vật","data":null}
+{"timestamp":"2025-10-01T16:48:54.494Z","level":"SUCCESS","message":"Đã lưu dữ liệu nhân vật vào: output\\characters.json","data":null}
+{"timestamp":"2025-10-01T16:48:54.495Z","level":"COMPLETE","message":"Crawl nhân vật hoàn thành!","data":{"totalCharacters":135}}

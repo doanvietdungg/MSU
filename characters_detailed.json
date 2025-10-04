@@ -1,0 +1,2835 @@
+[
+  {
+    "tokenId": "1127028716494962562212379596983553550511728451603",
+    "name": "Delaria",
+    "owner": {
+      "walletAddr": "0x429133642E686eb241F7C8fF57D93D156833EA94",
+      "nickname": "Neclumi5#1051",
+      "isExternalUser": false
+    },
+    "category": {
+      "categoryNo": 1020203001,
+      "label": "Character > Heroes > Bowman > Mercedes",
+      "tier0": {
+        "label": "Character",
+        "code": "102"
+      },
+      "tier1": {
+        "label": "Heroes",
+        "code": "02"
+      },
+      "tier2": {
+        "label": "Bowman",
+        "code": "03"
+      },
+      "tier3": {
+        "label": "Mercedes",
+        "code": "001"
+      }
+    },
+    "tokenInfo": {
+      "ownerWalletAddr": "0x429133642E686eb241F7C8fF57D93D156833EA94",
+      "tokenId": "1127028716494962562212379596983553550511728451603",
+      "tokenStandard": "ERC721",
+      "mintingNo": "0",
+      "tokenType": "characters"
+    },
+    "imageUrl": "https://market-static.msu.io/msu/platform/charimages/transient/MWExMmEyMTU1NWEwYTE1MjIxMjJhMzQ0MjNhMTAwNDIyMWEwYTBhMGExMDUyNzkxYTEwNjEwMzlhMTA3Mjk1OWExMDgyNjAwYTBhMTM1MjAwMGEyMzEyYTFhMGEwYTBhMmEwYTFhMGEwYTBhMGEwYTBhMA==.png",
+    "assetStatus": "AssetStatus_OnSale",
+    "mintingStatus": "MintingStatus_Minted",
+    "dataStatus": "DataStatus_OK",
+    "character": {
+      "tokenId": "1127028716494962562212379596983553550511728451603",
+      "name": "Delaria",
+      "category": {
+        "categoryNo": 1020203001,
+        "label": "Character > Heroes > Bowman > Mercedes",
+        "tier0": {
+          "label": "Character",
+          "code": "102"
+        },
+        "tier1": {
+          "label": "Heroes",
+          "code": "02"
+        },
+        "tier2": {
+          "label": "Bowman",
+          "code": "03"
+        },
+        "tier3": {
+          "label": "Mercedes",
+          "code": "001"
+        }
+      },
+      "common": {
+        "name": "Delaria",
+        "level": 120,
+        "worldCode": 2,
+        "job": {
+          "classCode": 4,
+          "className": "Bowman",
+          "jobCode": 2312,
+          "jobName": "Mercedes"
+        },
+        "nesoletWei": "0",
+        "exp": "17394252",
+        "totalExp": "17992868",
+        "expr": "96.673",
+        "gender": 1,
+        "popularity": 4,
+        "starforceSum": 1,
+        "honorExp": 71860
+      },
+      "apStat": {
+        "str": {
+          "total": 53,
+          "base": 4,
+          "enhance": 49
+        },
+        "dex": {
+          "total": 710,
+          "base": 618,
+          "enhance": 92
+        },
+        "int": {
+          "total": 4,
+          "base": 4,
+          "enhance": 0
+        },
+        "luk": {
+          "total": 8,
+          "base": 4,
+          "enhance": 4
+        },
+        "hp": {
+          "total": 3374,
+          "base": 3134,
+          "enhance": 240
+        },
+        "mp": {
+          "total": 2357,
+          "base": 2173,
+          "enhance": 184
+        },
+        "damage": {
+          "total": 40,
+          "base": 0,
+          "enhance": 40
+        },
+        "bossMonsterDamage": {
+          "total": 0,
+          "base": 0,
+          "enhance": 0
+        },
+        "finalDamage": {
+          "total": 25,
+          "base": 0,
+          "enhance": 25
+        },
+        "ignoreDefence": {
+          "total": 0,
+          "base": 0,
+          "enhance": 0
+        },
+        "criticalRate": {
+          "total": 60,
+          "base": 5,
+          "enhance": 55
+        },
+        "criticalDamage": {
+          "total": 7,
+          "base": 0,
+          "enhance": 7
+        },
+        "buffDurationRate": {
+          "total": 0,
+          "base": 0,
+          "enhance": 0
+        },
+        "abnormalStatusResistance": {
+          "total": 25,
+          "base": 0,
+          "enhance": 25
+        },
+        "defence": {
+          "total": 894,
+          "base": 894,
+          "enhance": 0
+        },
+        "speed": {
+          "total": 152,
+          "base": 152,
+          "enhance": 0
+        },
+        "jump": {
+          "total": 120,
+          "base": 120,
+          "enhance": 0
+        },
+        "knockbackResistance": {
+          "total": 100,
+          "base": 0,
+          "enhance": 100
+        }
+      },
+      "hyperStat": {},
+      "ability": {
+        "ability1": {
+          "grade": 2,
+          "code": 70000036,
+          "desc": "+5% damage to normal monsters",
+          "values": []
+        },
+        "ability2": {
+          "grade": 1,
+          "code": 70000006,
+          "desc": "Defense: +90",
+          "values": []
+        },
+        "ability3": {
+          "grade": 1,
+          "code": 70000055,
+          "desc": "DEX: +8, LUK: +4",
+          "values": []
+        }
+      },
+      "wearing": {
+        "equip": {
+          "cap": {
+            "itemId": 1004221,
+            "mintable": false,
+            "potential": 0,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/1004221.png"
+          },
+          "clothes": {
+            "itemId": 1052791,
+            "mintable": false,
+            "potential": 0,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/1052791.png"
+          },
+          "shoes": {
+            "itemId": 1072959,
+            "mintable": false,
+            "potential": 0,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/1072959.png"
+          },
+          "gloves": {
+            "itemId": 1082600,
+            "mintable": false,
+            "potential": 0,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/1082600.png"
+          },
+          "subWeapon": {
+            "itemId": 1352000,
+            "mintable": false,
+            "potential": 0,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/1352000.png"
+          },
+          "weapon": {
+            "itemId": 1522122,
+            "mintable": false,
+            "potential": 0,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/1522122.png"
+          }
+        },
+        "cashEquip": {},
+        "pet": {
+          "pet1": {
+            "itemId": 5000054,
+            "mintable": false,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/5000054.png"
+          }
+        }
+      }
+    },
+    "ranking": {
+      "totalRank": 314616,
+      "jobRank": 7685
+    },
+    "salesInfo": {
+      "tokenId": "1127028716494962562212379596983553550511728451603",
+      "sellerWalletAddr": "0x429133642E686eb241F7C8fF57D93D156833EA94",
+      "createdAt": "2025-10-01T17:47:32Z",
+      "expiredAt": "2025-10-08T17:47:32Z",
+      "priceWei": "450000000000000000000000",
+      "quantity": "1",
+      "minimumPriceWei": "",
+      "lastTradedPriceWei": ""
+    },
+    "additionalInfo": {
+      "viewCount": "4",
+      "bookmarkCount": "4"
+    },
+    "updatedAt": "2025-10-01T17:47:34.407Z",
+    "assetKey": "CHARd2a1r192um5c73e90n4g"
+  },
+  {
+    "tokenId": "1452821583219553000600090369987678518528428205371",
+    "name": "NAlek",
+    "owner": {
+      "walletAddr": "0x12B091c4b2253fC360B5e6574d782B181A696A90",
+      "nickname": "eduxui9945#9756",
+      "isExternalUser": false
+    },
+    "category": {
+      "categoryNo": 1020104006,
+      "label": "Character > Explorer > Bowman > Bowmaster",
+      "tier0": {
+        "label": "Character",
+        "code": "102"
+      },
+      "tier1": {
+        "label": "Explorer",
+        "code": "01"
+      },
+      "tier2": {
+        "label": "Bowman",
+        "code": "04"
+      },
+      "tier3": {
+        "label": "Bowmaster",
+        "code": "006"
+      }
+    },
+    "tokenInfo": {
+      "ownerWalletAddr": "0x12B091c4b2253fC360B5e6574d782B181A696A90",
+      "tokenId": "1452821583219553000600090369987678518528428205371",
+      "tokenStandard": "ERC721",
+      "mintingNo": "0",
+      "tokenType": "characters"
+    },
+    "imageUrl": "https://market-static.msu.io/msu/platform/charimages/transient/MGEwYTIwMTAwYTBhMTQ1MjIzNmEzMDAyN2ExMDA0MjIxYTBhMGEwYTEwNTI3OTFhMTA2MDAyNmExMDcyOTU5YTEwODI2MDBhMGExMzU0MTYwYTMxMmEwYTBhMGEwYTJhMGExYTBhMGEwYTBhMGEwYTA=.png",
+    "assetStatus": "AssetStatus_OnSale",
+    "mintingStatus": "MintingStatus_Minted",
+    "dataStatus": "DataStatus_OK",
+    "character": {
+      "tokenId": "1452821583219553000600090369987678518528428205371",
+      "name": "NAlek",
+      "category": {
+        "categoryNo": 1020104006,
+        "label": "Character > Explorer > Bowman > Bowmaster",
+        "tier0": {
+          "label": "Character",
+          "code": "102"
+        },
+        "tier1": {
+          "label": "Explorer",
+          "code": "01"
+        },
+        "tier2": {
+          "label": "Bowman",
+          "code": "04"
+        },
+        "tier3": {
+          "label": "Bowmaster",
+          "code": "006"
+        }
+      },
+      "common": {
+        "name": "NAlek",
+        "level": 171,
+        "worldCode": 1,
+        "job": {
+          "classCode": 4,
+          "className": "Bowman",
+          "jobCode": 312,
+          "jobName": "Bowmaster"
+        },
+        "nesoletWei": "0",
+        "exp": "451803399",
+        "totalExp": "538062549",
+        "expr": "83.968",
+        "gender": 0,
+        "popularity": -1,
+        "starforceSum": 0,
+        "honorExp": 1858
+      },
+      "apStat": {
+        "str": {
+          "total": 230,
+          "base": 24,
+          "enhance": 206
+        },
+        "dex": {
+          "total": 1315,
+          "base": 853,
+          "enhance": 462
+        },
+        "int": {
+          "total": 25,
+          "base": 4,
+          "enhance": 21
+        },
+        "luk": {
+          "total": 61,
+          "base": 4,
+          "enhance": 57
+        },
+        "hp": {
+          "total": 7868,
+          "base": 4558,
+          "enhance": 3310
+        },
+        "mp": {
+          "total": 4006,
+          "base": 2939,
+          "enhance": 1067
+        },
+        "damage": {
+          "total": 15,
+          "base": 0,
+          "enhance": 15
+        },
+        "bossMonsterDamage": {
+          "total": 35,
+          "base": 0,
+          "enhance": 35
+        },
+        "finalDamage": {
+          "total": 37,
+          "base": 0,
+          "enhance": 37
+        },
+        "ignoreDefence": {
+          "total": 61,
+          "base": 0,
+          "enhance": 61
+        },
+        "criticalRate": {
+          "total": 69,
+          "base": 5,
+          "enhance": 64
+        },
+        "criticalDamage": {
+          "total": 31,
+          "base": 0,
+          "enhance": 31
+        },
+        "buffDurationRate": {
+          "total": 0,
+          "base": 0,
+          "enhance": 0
+        },
+        "abnormalStatusResistance": {
+          "total": 20,
+          "base": 0,
+          "enhance": 20
+        },
+        "defence": {
+          "total": 1940,
+          "base": 1940,
+          "enhance": 0
+        },
+        "speed": {
+          "total": 147,
+          "base": 147,
+          "enhance": 0
+        },
+        "jump": {
+          "total": 100,
+          "base": 100,
+          "enhance": 0
+        },
+        "knockbackResistance": {
+          "total": 100,
+          "base": 0,
+          "enhance": 100
+        }
+      },
+      "hyperStat": {
+        "str": {
+          "code": 80000400,
+          "desc": "Strength +90",
+          "level": 3
+        },
+        "dex": {
+          "code": 80000401,
+          "desc": "Dexterity +150",
+          "level": 5
+        },
+        "criticalRate": {
+          "code": 80000409,
+          "desc": "Critical Rate: +0%",
+          "level": 0
+        },
+        "criticalDamage": {
+          "code": 80000410,
+          "desc": "Critical Damage: +0%",
+          "level": 0
+        },
+        "ignoreDefence": {
+          "code": 80000412,
+          "desc": "DEF Ignored: +15%",
+          "level": 5
+        },
+        "damage": {
+          "code": 80000413,
+          "desc": "Damage: +15%",
+          "level": 5
+        },
+        "bossMonsterDamage": {
+          "code": 80000414,
+          "desc": "Boss Monster Damage: +15%",
+          "level": 5
+        },
+        "attackAndMagicAttack": {
+          "code": 80000419,
+          "desc": "Attack Power and Magic ATT: +15",
+          "level": 5
+        }
+      },
+      "ability": {
+        "ability1": {
+          "grade": 4,
+          "code": 70000059,
+          "desc": "LUK: +36, STR: +18",
+          "values": []
+        },
+        "ability2": {
+          "grade": 2,
+          "code": 70000012,
+          "desc": "Attack: +12",
+          "values": []
+        },
+        "ability3": {
+          "grade": 1,
+          "code": 70000022,
+          "desc": "3% of AP assigned to DEX added to STR",
+          "values": []
+        }
+      },
+      "wearing": {
+        "equip": {
+          "cap": {
+            "itemId": 1004221,
+            "mintable": false,
+            "potential": 0,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/1004221.png"
+          },
+          "clothes": {
+            "itemId": 1052791,
+            "mintable": false,
+            "potential": 0,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/1052791.png"
+          },
+          "shoes": {
+            "itemId": 1072959,
+            "mintable": false,
+            "potential": 0,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/1072959.png"
+          },
+          "gloves": {
+            "itemId": 1082600,
+            "mintable": false,
+            "potential": 0,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/1082600.png"
+          },
+          "subWeapon": {
+            "itemId": 1354160,
+            "mintable": false,
+            "potential": 0,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/1354160.png"
+          },
+          "weapon": {
+            "itemId": 1452236,
+            "mintable": false,
+            "potential": 0,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/1452236.png"
+          },
+          "ring1": {
+            "itemId": 1113343,
+            "mintable": false,
+            "potential": 0,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/1113343.png"
+          },
+          "ring2": {
+            "itemId": 1112679,
+            "mintable": false,
+            "potential": 0,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/1112679.png"
+          },
+          "medal": {
+            "itemId": 1142369,
+            "mintable": false,
+            "potential": 0,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/1142369.png"
+          },
+          "pocket": {
+            "itemId": 1162086,
+            "mintable": false,
+            "potential": 0,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/1162086.png"
+          },
+          "badge": {
+            "itemId": 1182305,
+            "mintable": false,
+            "potential": 0,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/1182305.png"
+          }
+        },
+        "cashEquip": {},
+        "pet": {
+          "pet1": {
+            "itemId": 5000042,
+            "mintable": false,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/5000042.png"
+          }
+        }
+      }
+    },
+    "ranking": {
+      "totalRank": 61213,
+      "jobRank": 2399
+    },
+    "salesInfo": {
+      "tokenId": "1452821583219553000600090369987678518528428205371",
+      "sellerWalletAddr": "0x12B091c4b2253fC360B5e6574d782B181A696A90",
+      "createdAt": "2025-10-01T17:47:30Z",
+      "expiredAt": "2025-10-04T17:47:30Z",
+      "priceWei": "1159679000000000000000000",
+      "quantity": "1",
+      "minimumPriceWei": "",
+      "lastTradedPriceWei": ""
+    },
+    "additionalInfo": {
+      "viewCount": "995",
+      "bookmarkCount": "1"
+    },
+    "updatedAt": "2025-10-01T17:47:32.189Z",
+    "assetKey": "CHARd18q8rsmvguc73fvgr20"
+  },
+  {
+    "tokenId": "548180953902177178886358113433776611411298161449",
+    "name": "wllieV",
+    "owner": {
+      "walletAddr": "0xc49A643eB56b1065BE5480E294b4FEF54a4356b9",
+      "nickname": "dfsdf#3409",
+      "isExternalUser": false
+    },
+    "category": {
+      "categoryNo": 1020103006,
+      "label": "Character > Explorer > Magician > Ice/Lightning Mage",
+      "tier0": {
+        "label": "Character",
+        "code": "102"
+      },
+      "tier1": {
+        "label": "Explorer",
+        "code": "01"
+      },
+      "tier2": {
+        "label": "Magician",
+        "code": "03"
+      },
+      "tier3": {
+        "label": "Ice/Lightning Mage",
+        "code": "006"
+      }
+    },
+    "tokenInfo": {
+      "ownerWalletAddr": "0xc49A643eB56b1065BE5480E294b4FEF54a4356b9",
+      "tokenId": "548180953902177178886358113433776611411298161449",
+      "tokenStandard": "ERC721",
+      "mintingNo": "0",
+      "tokenType": "characters"
+    },
+    "imageUrl": "https://market-static.msu.io/msu/platform/charimages/transient/MWEwYTIxMTk1YTBhMTM3MjExNWEzNzc3NmExMDAzMzM3YTBhMGEwYTEwNTEwNDRhMTA2MTAzOWExMDcyMTM5YTEwODIwODZhMGExMzU0MTQwYTIyMWEwYTBhMGEwYTJhMGExYTBhMGEwYTBhMGEwYTA=.png",
+    "assetStatus": "AssetStatus_OnSale",
+    "mintingStatus": "MintingStatus_Minted",
+    "dataStatus": "DataStatus_OK",
+    "character": {
+      "tokenId": "548180953902177178886358113433776611411298161449",
+      "name": "wllieV",
+      "category": {
+        "categoryNo": 1020103006,
+        "label": "Character > Explorer > Magician > Ice/Lightning Mage",
+        "tier0": {
+          "label": "Character",
+          "code": "102"
+        },
+        "tier1": {
+          "label": "Explorer",
+          "code": "01"
+        },
+        "tier2": {
+          "label": "Magician",
+          "code": "03"
+        },
+        "tier3": {
+          "label": "Ice/Lightning Mage",
+          "code": "006"
+        }
+      },
+      "common": {
+        "name": "wllieV",
+        "level": 80,
+        "worldCode": 2,
+        "job": {
+          "classCode": 2,
+          "className": "Magician",
+          "jobCode": 221,
+          "jobName": "Mage I/L"
+        },
+        "nesoletWei": "28508592731000000000000",
+        "exp": "1528",
+        "totalExp": "1496179",
+        "expr": "0.102",
+        "gender": 1,
+        "popularity": 0,
+        "starforceSum": 1,
+        "honorExp": 19500
+      },
+      "apStat": {
+        "str": {
+          "total": 13,
+          "base": 4,
+          "enhance": 9
+        },
+        "dex": {
+          "total": 13,
+          "base": 4,
+          "enhance": 9
+        },
+        "int": {
+          "total": 494,
+          "base": 413,
+          "enhance": 81
+        },
+        "luk": {
+          "total": 24,
+          "base": 4,
+          "enhance": 20
+        },
+        "hp": {
+          "total": 1209,
+          "base": 1174,
+          "enhance": 35
+        },
+        "mp": {
+          "total": 14384,
+          "base": 3865,
+          "enhance": 10519
+        },
+        "damage": {
+          "total": 50,
+          "base": 0,
+          "enhance": 50
+        },
+        "bossMonsterDamage": {
+          "total": 0,
+          "base": 0,
+          "enhance": 0
+        },
+        "finalDamage": {
+          "total": 40,
+          "base": 0,
+          "enhance": 40
+        },
+        "ignoreDefence": {
+          "total": 0,
+          "base": 0,
+          "enhance": 0
+        },
+        "criticalRate": {
+          "total": 45,
+          "base": 5,
+          "enhance": 40
+        },
+        "criticalDamage": {
+          "total": 13,
+          "base": 0,
+          "enhance": 13
+        },
+        "buffDurationRate": {
+          "total": 0,
+          "base": 0,
+          "enhance": 0
+        },
+        "abnormalStatusResistance": {
+          "total": 0,
+          "base": 0,
+          "enhance": 0
+        },
+        "defence": {
+          "total": 311,
+          "base": 311,
+          "enhance": 0
+        },
+        "speed": {
+          "total": 100,
+          "base": 100,
+          "enhance": 0
+        },
+        "jump": {
+          "total": 100,
+          "base": 100,
+          "enhance": 0
+        },
+        "knockbackResistance": {
+          "total": 40,
+          "base": 0,
+          "enhance": 40
+        }
+      },
+      "hyperStat": {},
+      "ability": {
+        "ability1": {
+          "grade": 1,
+          "code": 70000015,
+          "desc": "All Stats: +1",
+          "values": []
+        },
+        "ability2": {
+          "grade": 1,
+          "code": 70000015,
+          "desc": "All Stats: +3",
+          "values": []
+        },
+        "ability3": {
+          "grade": 1,
+          "code": 70000015,
+          "desc": "All Stats: +5",
+          "values": []
+        }
+      },
+      "wearing": {
+        "equip": {
+          "cap": {
+            "itemId": 1003337,
+            "mintable": false,
+            "potential": 0,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/1003337.png"
+          },
+          "clothes": {
+            "itemId": 1051044,
+            "mintable": false,
+            "potential": 0,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/1051044.png"
+          },
+          "shoes": {
+            "itemId": 1072139,
+            "mintable": false,
+            "potential": 0,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/1072139.png"
+          },
+          "gloves": {
+            "itemId": 1082086,
+            "mintable": false,
+            "potential": 0,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/1082086.png"
+          },
+          "subWeapon": {
+            "itemId": 1354140,
+            "mintable": false,
+            "potential": 0,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/1354140.png"
+          },
+          "weapon": {
+            "itemId": 1372115,
+            "mintable": false,
+            "potential": 0,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/1372115.png"
+          }
+        },
+        "cashEquip": {},
+        "pet": {
+          "pet1": {
+            "itemId": 5000054,
+            "mintable": false,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/5000054.png"
+          }
+        }
+      }
+    },
+    "ranking": {
+      "totalRank": 677097,
+      "jobRank": 4792
+    },
+    "salesInfo": {
+      "tokenId": "548180953902177178886358113433776611411298161449",
+      "sellerWalletAddr": "0xc49A643eB56b1065BE5480E294b4FEF54a4356b9",
+      "createdAt": "2025-10-01T17:47:20Z",
+      "expiredAt": "2025-10-04T17:47:20Z",
+      "priceWei": "122222000000000000000000",
+      "quantity": "1",
+      "minimumPriceWei": "",
+      "lastTradedPriceWei": ""
+    },
+    "additionalInfo": {
+      "viewCount": "13",
+      "bookmarkCount": "0"
+    },
+    "updatedAt": "2025-10-01T17:47:26.729Z",
+    "assetKey": "CHARd37f5of1lcus73fpu9h0"
+  },
+  {
+    "tokenId": "535086482266135794259984382562827050270741967865",
+    "name": "wlmwX",
+    "owner": {
+      "walletAddr": "0xc49A643eB56b1065BE5480E294b4FEF54a4356b9",
+      "nickname": "dfsdf#3409",
+      "isExternalUser": false
+    },
+    "category": {
+      "categoryNo": 1020103006,
+      "label": "Character > Explorer > Magician > Ice/Lightning Mage",
+      "tier0": {
+        "label": "Character",
+        "code": "102"
+      },
+      "tier1": {
+        "label": "Explorer",
+        "code": "01"
+      },
+      "tier2": {
+        "label": "Magician",
+        "code": "03"
+      },
+      "tier3": {
+        "label": "Ice/Lightning Mage",
+        "code": "006"
+      }
+    },
+    "tokenInfo": {
+      "ownerWalletAddr": "0xc49A643eB56b1065BE5480E294b4FEF54a4356b9",
+      "tokenId": "535086482266135794259984382562827050270741967865",
+      "tokenStandard": "ERC721",
+      "mintingNo": "0",
+      "tokenType": "characters"
+    },
+    "imageUrl": "https://market-static.msu.io/msu/platform/charimages/transient/MWEwYTIxMTk1YTBhMTM3MjExNWEzNzc4MWExMDAzMzM3YTBhMGEwYTEwNTEwNDRhMTA2MTAzOWExMDcyMTM5YTEwODIwODZhMGExMzU0MTQwYTIyMWEwYTBhMGEwYTJhMGExYTBhMGEwYTBhMGEwYTA=.png",
+    "assetStatus": "AssetStatus_OnSale",
+    "mintingStatus": "MintingStatus_Minted",
+    "dataStatus": "DataStatus_OK",
+    "character": {
+      "tokenId": "535086482266135794259984382562827050270741967865",
+      "name": "wlmwX",
+      "category": {
+        "categoryNo": 1020103006,
+        "label": "Character > Explorer > Magician > Ice/Lightning Mage",
+        "tier0": {
+          "label": "Character",
+          "code": "102"
+        },
+        "tier1": {
+          "label": "Explorer",
+          "code": "01"
+        },
+        "tier2": {
+          "label": "Magician",
+          "code": "03"
+        },
+        "tier3": {
+          "label": "Ice/Lightning Mage",
+          "code": "006"
+        }
+      },
+      "common": {
+        "name": "wlmwX",
+        "level": 80,
+        "worldCode": 2,
+        "job": {
+          "classCode": 2,
+          "className": "Magician",
+          "jobCode": 221,
+          "jobName": "Mage I/L"
+        },
+        "nesoletWei": "27470912892000000000000",
+        "exp": "4947",
+        "totalExp": "1496179",
+        "expr": "0.330",
+        "gender": 1,
+        "popularity": 0,
+        "starforceSum": 1,
+        "honorExp": 19520
+      },
+      "apStat": {
+        "str": {
+          "total": 13,
+          "base": 4,
+          "enhance": 9
+        },
+        "dex": {
+          "total": 13,
+          "base": 4,
+          "enhance": 9
+        },
+        "int": {
+          "total": 494,
+          "base": 413,
+          "enhance": 81
+        },
+        "luk": {
+          "total": 24,
+          "base": 4,
+          "enhance": 20
+        },
+        "hp": {
+          "total": 1209,
+          "base": 1174,
+          "enhance": 35
+        },
+        "mp": {
+          "total": 14384,
+          "base": 3865,
+          "enhance": 10519
+        },
+        "damage": {
+          "total": 50,
+          "base": 0,
+          "enhance": 50
+        },
+        "bossMonsterDamage": {
+          "total": 0,
+          "base": 0,
+          "enhance": 0
+        },
+        "finalDamage": {
+          "total": 40,
+          "base": 0,
+          "enhance": 40
+        },
+        "ignoreDefence": {
+          "total": 0,
+          "base": 0,
+          "enhance": 0
+        },
+        "criticalRate": {
+          "total": 45,
+          "base": 5,
+          "enhance": 40
+        },
+        "criticalDamage": {
+          "total": 13,
+          "base": 0,
+          "enhance": 13
+        },
+        "buffDurationRate": {
+          "total": 0,
+          "base": 0,
+          "enhance": 0
+        },
+        "abnormalStatusResistance": {
+          "total": 0,
+          "base": 0,
+          "enhance": 0
+        },
+        "defence": {
+          "total": 311,
+          "base": 311,
+          "enhance": 0
+        },
+        "speed": {
+          "total": 100,
+          "base": 100,
+          "enhance": 0
+        },
+        "jump": {
+          "total": 100,
+          "base": 100,
+          "enhance": 0
+        },
+        "knockbackResistance": {
+          "total": 40,
+          "base": 0,
+          "enhance": 40
+        }
+      },
+      "hyperStat": {},
+      "ability": {
+        "ability1": {
+          "grade": 1,
+          "code": 70000015,
+          "desc": "All Stats: +1",
+          "values": []
+        },
+        "ability2": {
+          "grade": 1,
+          "code": 70000015,
+          "desc": "All Stats: +3",
+          "values": []
+        },
+        "ability3": {
+          "grade": 1,
+          "code": 70000015,
+          "desc": "All Stats: +5",
+          "values": []
+        }
+      },
+      "wearing": {
+        "equip": {
+          "cap": {
+            "itemId": 1003337,
+            "mintable": false,
+            "potential": 0,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/1003337.png"
+          },
+          "clothes": {
+            "itemId": 1051044,
+            "mintable": false,
+            "potential": 0,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/1051044.png"
+          },
+          "shoes": {
+            "itemId": 1072139,
+            "mintable": false,
+            "potential": 0,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/1072139.png"
+          },
+          "gloves": {
+            "itemId": 1082086,
+            "mintable": false,
+            "potential": 0,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/1082086.png"
+          },
+          "subWeapon": {
+            "itemId": 1354140,
+            "mintable": false,
+            "potential": 0,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/1354140.png"
+          },
+          "weapon": {
+            "itemId": 1372115,
+            "mintable": false,
+            "potential": 0,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/1372115.png"
+          }
+        },
+        "cashEquip": {},
+        "pet": {
+          "pet1": {
+            "itemId": 5000054,
+            "mintable": false,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/5000054.png"
+          }
+        }
+      }
+    },
+    "ranking": {
+      "totalRank": 675699,
+      "jobRank": 4645
+    },
+    "salesInfo": {
+      "tokenId": "535086482266135794259984382562827050270741967865",
+      "sellerWalletAddr": "0xc49A643eB56b1065BE5480E294b4FEF54a4356b9",
+      "createdAt": "2025-10-01T17:47:10Z",
+      "expiredAt": "2025-10-04T17:47:10Z",
+      "priceWei": "122222000000000000000000",
+      "quantity": "1",
+      "minimumPriceWei": "",
+      "lastTradedPriceWei": ""
+    },
+    "additionalInfo": {
+      "viewCount": "11",
+      "bookmarkCount": "0"
+    },
+    "updatedAt": "2025-10-01T17:47:13.684Z",
+    "assetKey": "CHARd37f6otpjpgs7394j0dg"
+  },
+  {
+    "tokenId": "123453487199841055432897242342525323479130449032",
+    "name": "Xgvq",
+    "owner": {
+      "walletAddr": "0xC718C9A7379b8819717E332038eF8Fcd49E17623",
+      "nickname": "ayakKaxo#1648",
+      "isExternalUser": false
+    },
+    "category": {
+      "categoryNo": 1020106007,
+      "label": "Character > Explorer > Pirate > Corsair",
+      "tier0": {
+        "label": "Character",
+        "code": "102"
+      },
+      "tier1": {
+        "label": "Explorer",
+        "code": "01"
+      },
+      "tier2": {
+        "label": "Pirate",
+        "code": "06"
+      },
+      "tier3": {
+        "label": "Corsair",
+        "code": "007"
+      }
+    },
+    "tokenInfo": {
+      "ownerWalletAddr": "0xC718C9A7379b8819717E332038eF8Fcd49E17623",
+      "tokenId": "123453487199841055432897242342525323479130449032",
+      "tokenStandard": "ERC721",
+      "mintingNo": "0",
+      "tokenType": "characters"
+    },
+    "imageUrl": "https://market-static.msu.io/msu/platform/charimages/transient/MWEwYTIxMDAyYTBhMTQ5MjIxMGEzNDQzMmExMDA0MjIzYTBhMGEwYTEwNTI3OTNhMTA2MTAzOWExMDcyOTYxYTEwODI2MDJhMGExMzU0MjEwYTUyMmEwYTJhOTlhMGEyYTBhMWEwYTBhMGEwYTBhMGEw.png",
+    "assetStatus": "AssetStatus_OnSale",
+    "mintingStatus": "MintingStatus_Minted",
+    "dataStatus": "DataStatus_OK",
+    "character": {
+      "tokenId": "123453487199841055432897242342525323479130449032",
+      "name": "Xgvq",
+      "category": {
+        "categoryNo": 1020106007,
+        "label": "Character > Explorer > Pirate > Corsair",
+        "tier0": {
+          "label": "Character",
+          "code": "102"
+        },
+        "tier1": {
+          "label": "Explorer",
+          "code": "01"
+        },
+        "tier2": {
+          "label": "Pirate",
+          "code": "06"
+        },
+        "tier3": {
+          "label": "Corsair",
+          "code": "007"
+        }
+      },
+      "common": {
+        "name": "Xgvq",
+        "level": 143,
+        "worldCode": 2,
+        "job": {
+          "classCode": 16,
+          "className": "Pirate",
+          "jobCode": 522,
+          "jobName": "Corsair"
+        },
+        "nesoletWei": "0",
+        "exp": "44237460",
+        "totalExp": "80027643",
+        "expr": "55.277",
+        "gender": 1,
+        "popularity": 0,
+        "starforceSum": 1,
+        "honorExp": 21772
+      },
+      "apStat": {
+        "str": {
+          "total": 159,
+          "base": 4,
+          "enhance": 155
+        },
+        "dex": {
+          "total": 971,
+          "base": 733,
+          "enhance": 238
+        },
+        "int": {
+          "total": 194,
+          "base": 4,
+          "enhance": 190
+        },
+        "luk": {
+          "total": 64,
+          "base": 4,
+          "enhance": 60
+        },
+        "hp": {
+          "total": 11049,
+          "base": 4152,
+          "enhance": 6897
+        },
+        "mp": {
+          "total": 4899,
+          "base": 3289,
+          "enhance": 1610
+        },
+        "damage": {
+          "total": 3,
+          "base": 0,
+          "enhance": 3
+        },
+        "bossMonsterDamage": {
+          "total": 6,
+          "base": 0,
+          "enhance": 6
+        },
+        "finalDamage": {
+          "total": 29,
+          "base": 0,
+          "enhance": 29
+        },
+        "ignoreDefence": {
+          "total": 24,
+          "base": 0,
+          "enhance": 24
+        },
+        "criticalRate": {
+          "total": 69,
+          "base": 5,
+          "enhance": 64
+        },
+        "criticalDamage": {
+          "total": 51,
+          "base": 0,
+          "enhance": 51
+        },
+        "buffDurationRate": {
+          "total": 0,
+          "base": 0,
+          "enhance": 0
+        },
+        "abnormalStatusResistance": {
+          "total": 15,
+          "base": 0,
+          "enhance": 15
+        },
+        "defence": {
+          "total": 1416,
+          "base": 1416,
+          "enhance": 0
+        },
+        "speed": {
+          "total": 100,
+          "base": 100,
+          "enhance": 0
+        },
+        "jump": {
+          "total": 110,
+          "base": 110,
+          "enhance": 0
+        },
+        "knockbackResistance": {
+          "total": 100,
+          "base": 0,
+          "enhance": 100
+        }
+      },
+      "hyperStat": {
+        "dex": {
+          "code": 80000401,
+          "desc": "Dexterity +30",
+          "level": 1
+        },
+        "luk": {
+          "code": 80000403,
+          "desc": "Luck +60",
+          "level": 2
+        },
+        "criticalDamage": {
+          "code": 80000410,
+          "desc": "Critical Damage: +1%",
+          "level": 1
+        },
+        "ignoreDefence": {
+          "code": 80000412,
+          "desc": "DEF Ignored: +6%",
+          "level": 2
+        },
+        "damage": {
+          "code": 80000413,
+          "desc": "Damage: +3%",
+          "level": 1
+        },
+        "bossMonsterDamage": {
+          "code": 80000414,
+          "desc": "Boss Monster Damage: +6%",
+          "level": 2
+        },
+        "attackAndMagicAttack": {
+          "code": 80000419,
+          "desc": "Attack Power and Magic ATT: +6",
+          "level": 2
+        }
+      },
+      "ability": {
+        "ability1": {
+          "grade": 3,
+          "code": 70000057,
+          "desc": "DEX: +29, STR: +15",
+          "values": []
+        },
+        "ability2": {
+          "grade": 2,
+          "code": 70000054,
+          "desc": "DEX: +19, INT: +10",
+          "values": []
+        },
+        "ability3": {
+          "grade": 1,
+          "code": 70000006,
+          "desc": "Defense: +90",
+          "values": []
+        }
+      },
+      "wearing": {
+        "equip": {
+          "cap": {
+            "itemId": 1004223,
+            "mintable": false,
+            "potential": 0,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/1004223.png"
+          },
+          "clothes": {
+            "itemId": 1052793,
+            "mintable": false,
+            "potential": 0,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/1052793.png"
+          },
+          "shoes": {
+            "itemId": 1072961,
+            "mintable": false,
+            "potential": 0,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/1072961.png"
+          },
+          "gloves": {
+            "itemId": 1082602,
+            "mintable": false,
+            "potential": 0,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/1082602.png"
+          },
+          "subWeapon": {
+            "itemId": 1354210,
+            "mintable": false,
+            "potential": 0,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/1354210.png"
+          },
+          "weapon": {
+            "itemId": 1492210,
+            "mintable": false,
+            "potential": 0,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/1492210.png"
+          },
+          "ring1": {
+            "itemId": 1113343,
+            "mintable": false,
+            "potential": 0,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/1113343.png"
+          },
+          "pocket": {
+            "itemId": 1162086,
+            "mintable": false,
+            "potential": 0,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/1162086.png"
+          },
+          "badge": {
+            "itemId": 1182305,
+            "mintable": false,
+            "potential": 0,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/1182305.png"
+          }
+        },
+        "cashEquip": {
+          "hair": {
+            "itemId": 1791262,
+            "tokenId": "8286757429972616481657443079426",
+            "mintable": true,
+            "potential": 0,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/1791262.png"
+          }
+        },
+        "pet": {
+          "pet1": {
+            "itemId": 5000042,
+            "mintable": false,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/5000042.png"
+          }
+        }
+      }
+    },
+    "ranking": {
+      "totalRank": 176574,
+      "jobRank": 37431
+    },
+    "salesInfo": {
+      "tokenId": "123453487199841055432897242342525323479130449032",
+      "sellerWalletAddr": "0xC718C9A7379b8819717E332038eF8Fcd49E17623",
+      "createdAt": "2025-10-01T17:47:08Z",
+      "expiredAt": "2025-10-04T17:47:08Z",
+      "priceWei": "721727000000000000000000",
+      "quantity": "1",
+      "minimumPriceWei": "",
+      "lastTradedPriceWei": ""
+    },
+    "additionalInfo": {
+      "viewCount": "165",
+      "bookmarkCount": "4"
+    },
+    "updatedAt": "2025-10-01T17:47:10.413Z",
+    "assetKey": "CHARd28d5mtpjpgs73bf1pa0"
+  },
+  {
+    "tokenId": "886057677513646411353983873299672955942072846729",
+    "name": "EzrwV",
+    "owner": {
+      "walletAddr": "0xc49A643eB56b1065BE5480E294b4FEF54a4356b9",
+      "nickname": "dfsdf#3409",
+      "isExternalUser": false
+    },
+    "category": {
+      "categoryNo": 1020103006,
+      "label": "Character > Explorer > Magician > Ice/Lightning Mage",
+      "tier0": {
+        "label": "Character",
+        "code": "102"
+      },
+      "tier1": {
+        "label": "Explorer",
+        "code": "01"
+      },
+      "tier2": {
+        "label": "Magician",
+        "code": "03"
+      },
+      "tier3": {
+        "label": "Ice/Lightning Mage",
+        "code": "006"
+      }
+    },
+    "tokenInfo": {
+      "ownerWalletAddr": "0xc49A643eB56b1065BE5480E294b4FEF54a4356b9",
+      "tokenId": "886057677513646411353983873299672955942072846729",
+      "tokenStandard": "ERC721",
+      "mintingNo": "0",
+      "tokenType": "characters"
+    },
+    "imageUrl": "https://market-static.msu.io/msu/platform/charimages/transient/MWEwYTIxMTk0YTBhMTM3MjExNWEzNzc5M2ExMDAzMzM3YTBhMGEwYTEwNTEwNDRhMTA2MTAzOWExMDcyMTM5YTEwODIwODZhMGExMzU0MTQwYTIyMWEwYTBhMGEwYTJhMGExYTBhMGEwYTBhMGEwYTA=.png",
+    "assetStatus": "AssetStatus_OnSale",
+    "mintingStatus": "MintingStatus_Minted",
+    "dataStatus": "DataStatus_OK",
+    "character": {
+      "tokenId": "886057677513646411353983873299672955942072846729",
+      "name": "EzrwV",
+      "category": {
+        "categoryNo": 1020103006,
+        "label": "Character > Explorer > Magician > Ice/Lightning Mage",
+        "tier0": {
+          "label": "Character",
+          "code": "102"
+        },
+        "tier1": {
+          "label": "Explorer",
+          "code": "01"
+        },
+        "tier2": {
+          "label": "Magician",
+          "code": "03"
+        },
+        "tier3": {
+          "label": "Ice/Lightning Mage",
+          "code": "006"
+        }
+      },
+      "common": {
+        "name": "EzrwV",
+        "level": 80,
+        "worldCode": 2,
+        "job": {
+          "classCode": 2,
+          "className": "Magician",
+          "jobCode": 221,
+          "jobName": "Mage I/L"
+        },
+        "nesoletWei": "25949514971000000000000",
+        "exp": "434",
+        "totalExp": "1496179",
+        "expr": "0.029",
+        "gender": 1,
+        "popularity": 0,
+        "starforceSum": 1,
+        "honorExp": 19730
+      },
+      "apStat": {
+        "str": {
+          "total": 13,
+          "base": 4,
+          "enhance": 9
+        },
+        "dex": {
+          "total": 13,
+          "base": 4,
+          "enhance": 9
+        },
+        "int": {
+          "total": 494,
+          "base": 413,
+          "enhance": 81
+        },
+        "luk": {
+          "total": 24,
+          "base": 4,
+          "enhance": 20
+        },
+        "hp": {
+          "total": 1209,
+          "base": 1174,
+          "enhance": 35
+        },
+        "mp": {
+          "total": 14384,
+          "base": 3865,
+          "enhance": 10519
+        },
+        "damage": {
+          "total": 50,
+          "base": 0,
+          "enhance": 50
+        },
+        "bossMonsterDamage": {
+          "total": 0,
+          "base": 0,
+          "enhance": 0
+        },
+        "finalDamage": {
+          "total": 40,
+          "base": 0,
+          "enhance": 40
+        },
+        "ignoreDefence": {
+          "total": 0,
+          "base": 0,
+          "enhance": 0
+        },
+        "criticalRate": {
+          "total": 45,
+          "base": 5,
+          "enhance": 40
+        },
+        "criticalDamage": {
+          "total": 13,
+          "base": 0,
+          "enhance": 13
+        },
+        "buffDurationRate": {
+          "total": 0,
+          "base": 0,
+          "enhance": 0
+        },
+        "abnormalStatusResistance": {
+          "total": 0,
+          "base": 0,
+          "enhance": 0
+        },
+        "defence": {
+          "total": 311,
+          "base": 311,
+          "enhance": 0
+        },
+        "speed": {
+          "total": 100,
+          "base": 100,
+          "enhance": 0
+        },
+        "jump": {
+          "total": 100,
+          "base": 100,
+          "enhance": 0
+        },
+        "knockbackResistance": {
+          "total": 40,
+          "base": 0,
+          "enhance": 40
+        }
+      },
+      "hyperStat": {},
+      "ability": {
+        "ability1": {
+          "grade": 1,
+          "code": 70000015,
+          "desc": "All Stats: +1",
+          "values": []
+        },
+        "ability2": {
+          "grade": 1,
+          "code": 70000015,
+          "desc": "All Stats: +3",
+          "values": []
+        },
+        "ability3": {
+          "grade": 1,
+          "code": 70000015,
+          "desc": "All Stats: +5",
+          "values": []
+        }
+      },
+      "wearing": {
+        "equip": {
+          "cap": {
+            "itemId": 1003337,
+            "mintable": false,
+            "potential": 0,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/1003337.png"
+          },
+          "clothes": {
+            "itemId": 1051044,
+            "mintable": false,
+            "potential": 0,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/1051044.png"
+          },
+          "shoes": {
+            "itemId": 1072139,
+            "mintable": false,
+            "potential": 0,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/1072139.png"
+          },
+          "gloves": {
+            "itemId": 1082086,
+            "mintable": false,
+            "potential": 0,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/1082086.png"
+          },
+          "subWeapon": {
+            "itemId": 1354140,
+            "mintable": false,
+            "potential": 0,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/1354140.png"
+          },
+          "weapon": {
+            "itemId": 1372115,
+            "mintable": false,
+            "potential": 0,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/1372115.png"
+          }
+        },
+        "cashEquip": {},
+        "pet": {
+          "pet1": {
+            "itemId": 5000054,
+            "mintable": false,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/5000054.png"
+          }
+        }
+      }
+    },
+    "ranking": {
+      "totalRank": 677903,
+      "jobRank": 4886
+    },
+    "salesInfo": {
+      "tokenId": "886057677513646411353983873299672955942072846729",
+      "sellerWalletAddr": "0xc49A643eB56b1065BE5480E294b4FEF54a4356b9",
+      "createdAt": "2025-10-01T17:47:00Z",
+      "expiredAt": "2025-10-04T17:47:00Z",
+      "priceWei": "122222000000000000000000",
+      "quantity": "1",
+      "minimumPriceWei": "",
+      "lastTradedPriceWei": ""
+    },
+    "additionalInfo": {
+      "viewCount": "13",
+      "bookmarkCount": "0"
+    },
+    "updatedAt": "2025-10-01T17:47:03.344Z",
+    "assetKey": "CHARd37f74v1lcus73fpujt0"
+  },
+  {
+    "tokenId": "710679130115101394671615397670902800419806005634",
+    "name": "wwelw",
+    "owner": {
+      "walletAddr": "0xc49A643eB56b1065BE5480E294b4FEF54a4356b9",
+      "nickname": "dfsdf#3409",
+      "isExternalUser": false
+    },
+    "category": {
+      "categoryNo": 1020103006,
+      "label": "Character > Explorer > Magician > Ice/Lightning Mage",
+      "tier0": {
+        "label": "Character",
+        "code": "102"
+      },
+      "tier1": {
+        "label": "Explorer",
+        "code": "01"
+      },
+      "tier2": {
+        "label": "Magician",
+        "code": "03"
+      },
+      "tier3": {
+        "label": "Ice/Lightning Mage",
+        "code": "006"
+      }
+    },
+    "tokenInfo": {
+      "ownerWalletAddr": "0xc49A643eB56b1065BE5480E294b4FEF54a4356b9",
+      "tokenId": "710679130115101394671615397670902800419806005634",
+      "tokenStandard": "ERC721",
+      "mintingNo": "0",
+      "tokenType": "characters"
+    },
+    "imageUrl": "https://market-static.msu.io/msu/platform/charimages/transient/MGEwYTIzMzAwYTBhMTM3MjExNWEzNjc4N2ExMDAzMzM3YTBhMGEwYTEwNTAwNTNhMTA2MDAyNmExMDcyMTM5YTEwODIwODZhMGExMzU0MTQwYTIyMWEwYTBhMGEwYTJhMGExYTBhMGEwYTBhMGEwYTA=.png",
+    "assetStatus": "AssetStatus_OnSale",
+    "mintingStatus": "MintingStatus_Minted",
+    "dataStatus": "DataStatus_OK",
+    "character": {
+      "tokenId": "710679130115101394671615397670902800419806005634",
+      "name": "wwelw",
+      "category": {
+        "categoryNo": 1020103006,
+        "label": "Character > Explorer > Magician > Ice/Lightning Mage",
+        "tier0": {
+          "label": "Character",
+          "code": "102"
+        },
+        "tier1": {
+          "label": "Explorer",
+          "code": "01"
+        },
+        "tier2": {
+          "label": "Magician",
+          "code": "03"
+        },
+        "tier3": {
+          "label": "Ice/Lightning Mage",
+          "code": "006"
+        }
+      },
+      "common": {
+        "name": "wwelw",
+        "level": 80,
+        "worldCode": 2,
+        "job": {
+          "classCode": 2,
+          "className": "Magician",
+          "jobCode": 221,
+          "jobName": "Mage I/L"
+        },
+        "nesoletWei": "26714679815000000000000",
+        "exp": "2344",
+        "totalExp": "1496179",
+        "expr": "0.156",
+        "gender": 0,
+        "popularity": 0,
+        "starforceSum": 0,
+        "honorExp": 19480
+      },
+      "apStat": {
+        "str": {
+          "total": 13,
+          "base": 4,
+          "enhance": 9
+        },
+        "dex": {
+          "total": 13,
+          "base": 4,
+          "enhance": 9
+        },
+        "int": {
+          "total": 494,
+          "base": 413,
+          "enhance": 81
+        },
+        "luk": {
+          "total": 24,
+          "base": 4,
+          "enhance": 20
+        },
+        "hp": {
+          "total": 1209,
+          "base": 1174,
+          "enhance": 35
+        },
+        "mp": {
+          "total": 14384,
+          "base": 3865,
+          "enhance": 10519
+        },
+        "damage": {
+          "total": 50,
+          "base": 0,
+          "enhance": 50
+        },
+        "bossMonsterDamage": {
+          "total": 0,
+          "base": 0,
+          "enhance": 0
+        },
+        "finalDamage": {
+          "total": 40,
+          "base": 0,
+          "enhance": 40
+        },
+        "ignoreDefence": {
+          "total": 0,
+          "base": 0,
+          "enhance": 0
+        },
+        "criticalRate": {
+          "total": 45,
+          "base": 5,
+          "enhance": 40
+        },
+        "criticalDamage": {
+          "total": 13,
+          "base": 0,
+          "enhance": 13
+        },
+        "buffDurationRate": {
+          "total": 0,
+          "base": 0,
+          "enhance": 0
+        },
+        "abnormalStatusResistance": {
+          "total": 0,
+          "base": 0,
+          "enhance": 0
+        },
+        "defence": {
+          "total": 311,
+          "base": 311,
+          "enhance": 0
+        },
+        "speed": {
+          "total": 100,
+          "base": 100,
+          "enhance": 0
+        },
+        "jump": {
+          "total": 100,
+          "base": 100,
+          "enhance": 0
+        },
+        "knockbackResistance": {
+          "total": 40,
+          "base": 0,
+          "enhance": 40
+        }
+      },
+      "hyperStat": {},
+      "ability": {
+        "ability1": {
+          "grade": 1,
+          "code": 70000015,
+          "desc": "All Stats: +1",
+          "values": []
+        },
+        "ability2": {
+          "grade": 1,
+          "code": 70000015,
+          "desc": "All Stats: +3",
+          "values": []
+        },
+        "ability3": {
+          "grade": 1,
+          "code": 70000015,
+          "desc": "All Stats: +5",
+          "values": []
+        }
+      },
+      "wearing": {
+        "equip": {
+          "cap": {
+            "itemId": 1003337,
+            "mintable": false,
+            "potential": 0,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/1003337.png"
+          },
+          "clothes": {
+            "itemId": 1050053,
+            "mintable": false,
+            "potential": 0,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/1050053.png"
+          },
+          "shoes": {
+            "itemId": 1072139,
+            "mintable": false,
+            "potential": 0,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/1072139.png"
+          },
+          "gloves": {
+            "itemId": 1082086,
+            "mintable": false,
+            "potential": 0,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/1082086.png"
+          },
+          "subWeapon": {
+            "itemId": 1354140,
+            "mintable": false,
+            "potential": 0,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/1354140.png"
+          },
+          "weapon": {
+            "itemId": 1372115,
+            "mintable": false,
+            "potential": 0,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/1372115.png"
+          }
+        },
+        "cashEquip": {},
+        "pet": {
+          "pet1": {
+            "itemId": 5000054,
+            "mintable": false,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/5000054.png"
+          }
+        }
+      }
+    },
+    "ranking": {
+      "totalRank": 676660,
+      "jobRank": 4748
+    },
+    "salesInfo": {
+      "tokenId": "710679130115101394671615397670902800419806005634",
+      "sellerWalletAddr": "0xc49A643eB56b1065BE5480E294b4FEF54a4356b9",
+      "createdAt": "2025-10-01T17:46:49Z",
+      "expiredAt": "2025-10-04T17:46:49Z",
+      "priceWei": "122222000000000000000000",
+      "quantity": "1",
+      "minimumPriceWei": "",
+      "lastTradedPriceWei": ""
+    },
+    "additionalInfo": {
+      "viewCount": "8",
+      "bookmarkCount": "0"
+    },
+    "updatedAt": "2025-10-01T17:46:54.872Z",
+    "assetKey": "CHARd37f74o9hbfs73agis9g"
+  },
+  {
+    "tokenId": "1142926610194812290356370391931628029454674644200",
+    "name": "Reapers",
+    "owner": {
+      "walletAddr": "0xF243A074Ac8De35DF5D1E276ec470D00Cc306e18",
+      "nickname": "vsgijc48166#2549",
+      "isExternalUser": false
+    },
+    "category": {
+      "categoryNo": 1020202002,
+      "label": "Character > Heroes > Magician > Luminous",
+      "tier0": {
+        "label": "Character",
+        "code": "102"
+      },
+      "tier1": {
+        "label": "Heroes",
+        "code": "02"
+      },
+      "tier2": {
+        "label": "Magician",
+        "code": "02"
+      },
+      "tier3": {
+        "label": "Luminous",
+        "code": "002"
+      }
+    },
+    "tokenInfo": {
+      "ownerWalletAddr": "0xF243A074Ac8De35DF5D1E276ec470D00Cc306e18",
+      "tokenId": "1142926610194812290356370391931628029454674644200",
+      "tokenStandard": "ERC721",
+      "mintingNo": "0",
+      "tokenType": "characters"
+    },
+    "imageUrl": "https://market-static.msu.io/msu/platform/charimages/transient/MGEwYTIwMTc0YTBhMTIxMjA5OWEzNjE5NmExMDA0MjIwYTBhMGEwYTEwNTI3OTBhMTA2MDAyNmExMDcyOTU4YTEwODI1OTlhMTEwMjQ0M2ExMzUyNDAwYTI3MTJhMGEwYTBhMGEyYTBhMWEwYTBhMGEwYTBhMGEw.png",
+    "assetStatus": "AssetStatus_OnSale",
+    "mintingStatus": "MintingStatus_Minted",
+    "dataStatus": "DataStatus_OK",
+    "character": {
+      "tokenId": "1142926610194812290356370391931628029454674644200",
+      "name": "Reapers",
+      "category": {
+        "categoryNo": 1020202002,
+        "label": "Character > Heroes > Magician > Luminous",
+        "tier0": {
+          "label": "Character",
+          "code": "102"
+        },
+        "tier1": {
+          "label": "Heroes",
+          "code": "02"
+        },
+        "tier2": {
+          "label": "Magician",
+          "code": "02"
+        },
+        "tier3": {
+          "label": "Luminous",
+          "code": "002"
+        }
+      },
+      "common": {
+        "name": "Reapers",
+        "level": 148,
+        "worldCode": 1,
+        "job": {
+          "classCode": 2,
+          "className": "Magician",
+          "jobCode": 2712,
+          "jobName": "Luminous"
+        },
+        "nesoletWei": "17586503978000000000000",
+        "exp": "37789474",
+        "totalExp": "112188530",
+        "expr": "33.683",
+        "gender": 0,
+        "popularity": 38,
+        "starforceSum": 0,
+        "honorExp": 116140
+      },
+      "apStat": {
+        "str": {
+          "total": 17,
+          "base": 4,
+          "enhance": 13
+        },
+        "dex": {
+          "total": 17,
+          "base": 4,
+          "enhance": 13
+        },
+        "int": {
+          "total": 973,
+          "base": 758,
+          "enhance": 215
+        },
+        "luk": {
+          "total": 37,
+          "base": 4,
+          "enhance": 33
+        },
+        "hp": {
+          "total": 3321,
+          "base": 2954,
+          "enhance": 367
+        },
+        "mp": {
+          "total": 39323,
+          "base": 28463,
+          "enhance": 10860
+        },
+        "damage": {
+          "total": 21,
+          "base": 0,
+          "enhance": 21
+        },
+        "bossMonsterDamage": {
+          "total": 15,
+          "base": 0,
+          "enhance": 15
+        },
+        "finalDamage": {
+          "total": 90,
+          "base": 0,
+          "enhance": 90
+        },
+        "ignoreDefence": {
+          "total": 52,
+          "base": 0,
+          "enhance": 52
+        },
+        "criticalRate": {
+          "total": 40,
+          "base": 5,
+          "enhance": 35
+        },
+        "criticalDamage": {
+          "total": 21,
+          "base": 0,
+          "enhance": 21
+        },
+        "buffDurationRate": {
+          "total": 0,
+          "base": 0,
+          "enhance": 0
+        },
+        "abnormalStatusResistance": {
+          "total": 40,
+          "base": 0,
+          "enhance": 40
+        },
+        "defence": {
+          "total": 924,
+          "base": 924,
+          "enhance": 0
+        },
+        "speed": {
+          "total": 120,
+          "base": 120,
+          "enhance": 0
+        },
+        "jump": {
+          "total": 110,
+          "base": 110,
+          "enhance": 0
+        },
+        "knockbackResistance": {
+          "total": 100,
+          "base": 0,
+          "enhance": 100
+        }
+      },
+      "hyperStat": {
+        "int": {
+          "code": 80000402,
+          "desc": "Intelligence +90",
+          "level": 3
+        },
+        "criticalDamage": {
+          "code": 80000410,
+          "desc": "Critical Damage: +3%",
+          "level": 3
+        },
+        "ignoreDefence": {
+          "code": 80000412,
+          "desc": "DEF Ignored: +6%",
+          "level": 2
+        },
+        "damage": {
+          "code": 80000413,
+          "desc": "Damage: +6%",
+          "level": 2
+        },
+        "normalMonsterDamage": {
+          "code": 80000422,
+          "desc": "Damage Against Normal Monsters +6%",
+          "level": 2
+        },
+        "attackAndMagicAttack": {
+          "code": 80000419,
+          "desc": "Attack Power and Magic ATT: +6",
+          "level": 2
+        }
+      },
+      "ability": {},
+      "wearing": {
+        "equip": {
+          "cap": {
+            "itemId": 1004220,
+            "mintable": false,
+            "potential": 0,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/1004220.png"
+          },
+          "clothes": {
+            "itemId": 1052790,
+            "mintable": false,
+            "potential": 0,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/1052790.png"
+          },
+          "shoes": {
+            "itemId": 1072958,
+            "mintable": false,
+            "potential": 0,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/1072958.png"
+          },
+          "gloves": {
+            "itemId": 1082599,
+            "mintable": false,
+            "potential": 0,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/1082599.png"
+          },
+          "cape": {
+            "itemId": 1102443,
+            "mintable": false,
+            "potential": 0,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/1102443.png"
+          },
+          "subWeapon": {
+            "itemId": 1352400,
+            "mintable": false,
+            "potential": 0,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/1352400.png"
+          },
+          "weapon": {
+            "itemId": 1212099,
+            "mintable": false,
+            "potential": 0,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/1212099.png"
+          },
+          "ring1": {
+            "itemId": 1113343,
+            "mintable": false,
+            "potential": 0,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/1113343.png"
+          },
+          "medal": {
+            "itemId": 1143046,
+            "mintable": false,
+            "potential": 0,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/1143046.png"
+          },
+          "pocket": {
+            "itemId": 1162086,
+            "mintable": false,
+            "potential": 0,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/1162086.png"
+          },
+          "badge": {
+            "itemId": 1182305,
+            "mintable": false,
+            "potential": 0,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/1182305.png"
+          }
+        },
+        "cashEquip": {},
+        "pet": {
+          "pet1": {
+            "itemId": 5000042,
+            "mintable": false,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/5000042.png"
+          }
+        }
+      }
+    },
+    "ranking": {
+      "totalRank": 152945,
+      "jobRank": 6038
+    },
+    "salesInfo": {
+      "tokenId": "1142926610194812290356370391931628029454674644200",
+      "sellerWalletAddr": "0xF243A074Ac8De35DF5D1E276ec470D00Cc306e18",
+      "createdAt": "2025-10-01T17:46:48Z",
+      "expiredAt": "2025-10-04T17:46:48Z",
+      "priceWei": "1150000000000000000000000",
+      "quantity": "1",
+      "minimumPriceWei": "",
+      "lastTradedPriceWei": ""
+    },
+    "additionalInfo": {
+      "viewCount": "71",
+      "bookmarkCount": "0"
+    },
+    "updatedAt": "2025-10-01T17:46:52.296Z",
+    "assetKey": "CHARd2to2tt5bq0s73ea8a00"
+  },
+  {
+    "tokenId": "418000829383814290628687242053499989755516866439",
+    "name": "KirbyCain",
+    "owner": {
+      "walletAddr": "0xf65b3F5740854709c7Dc5f721424124d14cd2079",
+      "nickname": "jamesley#9335",
+      "isExternalUser": false
+    },
+    "category": {
+      "categoryNo": 1020104006,
+      "label": "Character > Explorer > Bowman > Bowmaster",
+      "tier0": {
+        "label": "Character",
+        "code": "102"
+      },
+      "tier1": {
+        "label": "Explorer",
+        "code": "01"
+      },
+      "tier2": {
+        "label": "Bowman",
+        "code": "04"
+      },
+      "tier3": {
+        "label": "Bowmaster",
+        "code": "006"
+      }
+    },
+    "tokenInfo": {
+      "ownerWalletAddr": "0xf65b3F5740854709c7Dc5f721424124d14cd2079",
+      "tokenId": "418000829383814290628687242053499989755516866439",
+      "tokenStandard": "ERC721",
+      "mintingNo": "0",
+      "tokenType": "characters"
+    },
+    "imageUrl": "https://market-static.msu.io/msu/platform/charimages/transient/MGEwYTIwMTAwYTBhMTQ1MjIzNmEzNjc4N2ExMDA0MjIxYTBhMGEwYTEwNTI3OTFhMTA2MDAyNmExMDcyOTU5YTEwODI2MDBhMGExMzU0MTYwYTMxMmEwYTBhMGEwYTJhMGExYTBhMGEwYTBhMGEwYTA=.png",
+    "assetStatus": "AssetStatus_OnSale",
+    "mintingStatus": "MintingStatus_Minted",
+    "dataStatus": "DataStatus_OK",
+    "character": {
+      "tokenId": "418000829383814290628687242053499989755516866439",
+      "name": "KirbyCain",
+      "category": {
+        "categoryNo": 1020104006,
+        "label": "Character > Explorer > Bowman > Bowmaster",
+        "tier0": {
+          "label": "Character",
+          "code": "102"
+        },
+        "tier1": {
+          "label": "Explorer",
+          "code": "01"
+        },
+        "tier2": {
+          "label": "Bowman",
+          "code": "04"
+        },
+        "tier3": {
+          "label": "Bowmaster",
+          "code": "006"
+        }
+      },
+      "common": {
+        "name": "KirbyCain",
+        "level": 125,
+        "worldCode": 0,
+        "job": {
+          "classCode": 4,
+          "className": "Bowman",
+          "jobCode": 312,
+          "jobName": "Bowmaster"
+        },
+        "nesoletWei": "0",
+        "exp": "311261",
+        "totalExp": "24651787",
+        "expr": "1.262",
+        "gender": 0,
+        "popularity": 0,
+        "starforceSum": 0,
+        "honorExp": 1110
+      },
+      "apStat": {
+        "str": {
+          "total": 113,
+          "base": 4,
+          "enhance": 109
+        },
+        "dex": {
+          "total": 762,
+          "base": 643,
+          "enhance": 119
+        },
+        "int": {
+          "total": 23,
+          "base": 4,
+          "enhance": 19
+        },
+        "luk": {
+          "total": 14,
+          "base": 4,
+          "enhance": 10
+        },
+        "hp": {
+          "total": 5106,
+          "base": 3454,
+          "enhance": 1652
+        },
+        "mp": {
+          "total": 2389,
+          "base": 2203,
+          "enhance": 186
+        },
+        "damage": {
+          "total": 0,
+          "base": 0,
+          "enhance": 0
+        },
+        "bossMonsterDamage": {
+          "total": 0,
+          "base": 0,
+          "enhance": 0
+        },
+        "finalDamage": {
+          "total": 30,
+          "base": 0,
+          "enhance": 30
+        },
+        "ignoreDefence": {
+          "total": 55,
+          "base": 0,
+          "enhance": 55
+        },
+        "criticalRate": {
+          "total": 49,
+          "base": 5,
+          "enhance": 44
+        },
+        "criticalDamage": {
+          "total": 16,
+          "base": 0,
+          "enhance": 16
+        },
+        "buffDurationRate": {
+          "total": 0,
+          "base": 0,
+          "enhance": 0
+        },
+        "abnormalStatusResistance": {
+          "total": 20,
+          "base": 0,
+          "enhance": 20
+        },
+        "defence": {
+          "total": 1192,
+          "base": 1192,
+          "enhance": 0
+        },
+        "speed": {
+          "total": 142,
+          "base": 142,
+          "enhance": 0
+        },
+        "jump": {
+          "total": 100,
+          "base": 100,
+          "enhance": 0
+        },
+        "knockbackResistance": {
+          "total": 40,
+          "base": 0,
+          "enhance": 40
+        }
+      },
+      "hyperStat": {},
+      "ability": {
+        "ability1": {
+          "grade": 3,
+          "code": 70000057,
+          "desc": "DEX: +25, STR: +13",
+          "values": []
+        },
+        "ability2": {
+          "grade": 2,
+          "code": 70000052,
+          "desc": "STR: +18, INT: +9",
+          "values": []
+        },
+        "ability3": {
+          "grade": 1,
+          "code": 70000022,
+          "desc": "3% of AP assigned to DEX added to STR",
+          "values": []
+        }
+      },
+      "wearing": {
+        "equip": {
+          "cap": {
+            "itemId": 1004221,
+            "mintable": false,
+            "potential": 0,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/1004221.png"
+          },
+          "clothes": {
+            "itemId": 1052791,
+            "mintable": false,
+            "potential": 0,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/1052791.png"
+          },
+          "shoes": {
+            "itemId": 1072959,
+            "mintable": false,
+            "potential": 0,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/1072959.png"
+          },
+          "gloves": {
+            "itemId": 1082600,
+            "mintable": false,
+            "potential": 0,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/1082600.png"
+          },
+          "subWeapon": {
+            "itemId": 1354160,
+            "mintable": false,
+            "potential": 0,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/1354160.png"
+          },
+          "weapon": {
+            "itemId": 1452236,
+            "mintable": false,
+            "potential": 0,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/1452236.png"
+          },
+          "ring1": {
+            "itemId": 1113343,
+            "mintable": false,
+            "potential": 0,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/1113343.png"
+          },
+          "pocket": {
+            "itemId": 1162086,
+            "mintable": false,
+            "potential": 0,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/1162086.png"
+          },
+          "badge": {
+            "itemId": 1182305,
+            "mintable": false,
+            "potential": 0,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/1182305.png"
+          }
+        },
+        "cashEquip": {},
+        "pet": {
+          "pet1": {
+            "itemId": 5000042,
+            "mintable": false,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/5000042.png"
+          }
+        }
+      }
+    },
+    "ranking": {
+      "totalRank": 284509,
+      "jobRank": 54782
+    },
+    "salesInfo": {
+      "tokenId": "418000829383814290628687242053499989755516866439",
+      "sellerWalletAddr": "0xf65b3F5740854709c7Dc5f721424124d14cd2079",
+      "createdAt": "2025-10-01T17:46:46Z",
+      "expiredAt": "2025-10-04T17:46:46Z",
+      "priceWei": "355338000000000000000000",
+      "quantity": "1",
+      "minimumPriceWei": "",
+      "lastTradedPriceWei": ""
+    },
+    "additionalInfo": {
+      "viewCount": "100",
+      "bookmarkCount": "3"
+    },
+    "updatedAt": "2025-10-01T17:46:48.497Z",
+    "assetKey": "CHARd11tfbjau45s73fbfnk0"
+  },
+  {
+    "tokenId": "1306659237560422028860667378480873516871047346969",
+    "name": "wugustG",
+    "owner": {
+      "walletAddr": "0xc49A643eB56b1065BE5480E294b4FEF54a4356b9",
+      "nickname": "dfsdf#3409",
+      "isExternalUser": false
+    },
+    "category": {
+      "categoryNo": 1020103006,
+      "label": "Character > Explorer > Magician > Ice/Lightning Mage",
+      "tier0": {
+        "label": "Character",
+        "code": "102"
+      },
+      "tier1": {
+        "label": "Explorer",
+        "code": "01"
+      },
+      "tier2": {
+        "label": "Magician",
+        "code": "03"
+      },
+      "tier3": {
+        "label": "Ice/Lightning Mage",
+        "code": "006"
+      }
+    },
+    "tokenInfo": {
+      "ownerWalletAddr": "0xc49A643eB56b1065BE5480E294b4FEF54a4356b9",
+      "tokenId": "1306659237560422028860667378480873516871047346969",
+      "tokenStandard": "ERC721",
+      "mintingNo": "0",
+      "tokenType": "characters"
+    },
+    "imageUrl": "https://market-static.msu.io/msu/platform/charimages/transient/MWEwYTIxMTk0YTBhMTM3MjExNWEzMTA1N2ExMDAzMzM3YTBhMGEwYTEwNTEwNDRhMTA2MTAzOWExMDcyMTM5YTEwODIwODZhMGExMzU0MTQwYTIyMWEwYTBhMGEwYTJhMGExYTBhMGEwYTBhMGEwYTA=.png",
+    "assetStatus": "AssetStatus_OnSale",
+    "mintingStatus": "MintingStatus_Minted",
+    "dataStatus": "DataStatus_OK",
+    "character": {
+      "tokenId": "1306659237560422028860667378480873516871047346969",
+      "name": "wugustG",
+      "category": {
+        "categoryNo": 1020103006,
+        "label": "Character > Explorer > Magician > Ice/Lightning Mage",
+        "tier0": {
+          "label": "Character",
+          "code": "102"
+        },
+        "tier1": {
+          "label": "Explorer",
+          "code": "01"
+        },
+        "tier2": {
+          "label": "Magician",
+          "code": "03"
+        },
+        "tier3": {
+          "label": "Ice/Lightning Mage",
+          "code": "006"
+        }
+      },
+      "common": {
+        "name": "wugustG",
+        "level": 80,
+        "worldCode": 2,
+        "job": {
+          "classCode": 2,
+          "className": "Magician",
+          "jobCode": 221,
+          "jobName": "Mage I/L"
+        },
+        "nesoletWei": "27918455662000000000000",
+        "exp": "657",
+        "totalExp": "1496179",
+        "expr": "0.043",
+        "gender": 1,
+        "popularity": 0,
+        "starforceSum": 1,
+        "honorExp": 19540
+      },
+      "apStat": {
+        "str": {
+          "total": 13,
+          "base": 4,
+          "enhance": 9
+        },
+        "dex": {
+          "total": 13,
+          "base": 4,
+          "enhance": 9
+        },
+        "int": {
+          "total": 494,
+          "base": 413,
+          "enhance": 81
+        },
+        "luk": {
+          "total": 24,
+          "base": 4,
+          "enhance": 20
+        },
+        "hp": {
+          "total": 1209,
+          "base": 1174,
+          "enhance": 35
+        },
+        "mp": {
+          "total": 14384,
+          "base": 3865,
+          "enhance": 10519
+        },
+        "damage": {
+          "total": 50,
+          "base": 0,
+          "enhance": 50
+        },
+        "bossMonsterDamage": {
+          "total": 0,
+          "base": 0,
+          "enhance": 0
+        },
+        "finalDamage": {
+          "total": 40,
+          "base": 0,
+          "enhance": 40
+        },
+        "ignoreDefence": {
+          "total": 0,
+          "base": 0,
+          "enhance": 0
+        },
+        "criticalRate": {
+          "total": 45,
+          "base": 5,
+          "enhance": 40
+        },
+        "criticalDamage": {
+          "total": 13,
+          "base": 0,
+          "enhance": 13
+        },
+        "buffDurationRate": {
+          "total": 0,
+          "base": 0,
+          "enhance": 0
+        },
+        "abnormalStatusResistance": {
+          "total": 0,
+          "base": 0,
+          "enhance": 0
+        },
+        "defence": {
+          "total": 311,
+          "base": 311,
+          "enhance": 0
+        },
+        "speed": {
+          "total": 100,
+          "base": 100,
+          "enhance": 0
+        },
+        "jump": {
+          "total": 100,
+          "base": 100,
+          "enhance": 0
+        },
+        "knockbackResistance": {
+          "total": 40,
+          "base": 0,
+          "enhance": 40
+        }
+      },
+      "hyperStat": {},
+      "ability": {
+        "ability1": {
+          "grade": 1,
+          "code": 70000015,
+          "desc": "All Stats: +1",
+          "values": []
+        },
+        "ability2": {
+          "grade": 1,
+          "code": 70000015,
+          "desc": "All Stats: +3",
+          "values": []
+        },
+        "ability3": {
+          "grade": 1,
+          "code": 70000015,
+          "desc": "All Stats: +5",
+          "values": []
+        }
+      },
+      "wearing": {
+        "equip": {
+          "cap": {
+            "itemId": 1003337,
+            "mintable": false,
+            "potential": 0,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/1003337.png"
+          },
+          "clothes": {
+            "itemId": 1051044,
+            "mintable": false,
+            "potential": 0,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/1051044.png"
+          },
+          "shoes": {
+            "itemId": 1072139,
+            "mintable": false,
+            "potential": 0,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/1072139.png"
+          },
+          "gloves": {
+            "itemId": 1082086,
+            "mintable": false,
+            "potential": 0,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/1082086.png"
+          },
+          "subWeapon": {
+            "itemId": 1354140,
+            "mintable": false,
+            "potential": 0,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/1354140.png"
+          },
+          "weapon": {
+            "itemId": 1372115,
+            "mintable": false,
+            "potential": 0,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/1372115.png"
+          }
+        },
+        "cashEquip": {},
+        "pet": {
+          "pet1": {
+            "itemId": 5000054,
+            "mintable": false,
+            "imageUrl": "https://api-static.msu.io/itemimages/icon/5000054.png"
+          }
+        }
+      }
+    },
+    "ranking": {
+      "totalRank": 677727,
+      "jobRank": 4864
+    },
+    "salesInfo": {
+      "tokenId": "1306659237560422028860667378480873516871047346969",
+      "sellerWalletAddr": "0xc49A643eB56b1065BE5480E294b4FEF54a4356b9",
+      "createdAt": "2025-10-01T17:46:37Z",
+      "expiredAt": "2025-10-04T17:46:37Z",
+      "priceWei": "122222000000000000000000",
+      "quantity": "1",
+      "minimumPriceWei": "",
+      "lastTradedPriceWei": ""
+    },
+    "additionalInfo": {
+      "viewCount": "14",
+      "bookmarkCount": "0"
+    },
+    "updatedAt": "2025-10-01T17:46:42.061Z",
+    "assetKey": "CHARd37f5t47lb2s73d8dd60"
+  }
+]
