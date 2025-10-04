@@ -1,0 +1,1167 @@
+[
+  {
+    "code": 5,
+    "message": "nft item not found. tokenId=1004220",
+    "details": [
+      {
+        "@type": "type.googleapis.com/common.errdetails.v1.AppErrorDetail",
+        "traceId": "68e0d8c20000000004886bbeb4b20aee",
+        "stackEntries": [],
+        "fields": [],
+        "code": ""
+      }
+    ]
+  },
+  {
+    "code": 5,
+    "message": "nft item not found. tokenId=1052790",
+    "details": [
+      {
+        "@type": "type.googleapis.com/common.errdetails.v1.AppErrorDetail",
+        "traceId": "68e0d8c300000000afa031a1a2be67d8",
+        "stackEntries": [],
+        "fields": [],
+        "code": ""
+      }
+    ]
+  },
+  {
+    "code": 5,
+    "message": "nft item not found. tokenId=1072958",
+    "details": [
+      {
+        "@type": "type.googleapis.com/common.errdetails.v1.AppErrorDetail",
+        "traceId": "68e0d8c400000000fb61f9f0247cd7d1",
+        "stackEntries": [],
+        "fields": [],
+        "code": ""
+      }
+    ]
+  },
+  {
+    "code": 5,
+    "message": "nft item not found. tokenId=1082599",
+    "details": [
+      {
+        "@type": "type.googleapis.com/common.errdetails.v1.AppErrorDetail",
+        "traceId": "68e0d8c5000000006b26abd62e810c13",
+        "stackEntries": [],
+        "fields": [],
+        "code": ""
+      }
+    ]
+  },
+  {
+    "code": 5,
+    "message": "nft item not found. tokenId=1354130",
+    "details": [
+      {
+        "@type": "type.googleapis.com/common.errdetails.v1.AppErrorDetail",
+        "traceId": "68e0d8c6000000008ca100f605eafeaa",
+        "stackEntries": [],
+        "fields": [],
+        "code": ""
+      }
+    ]
+  },
+  {
+    "code": 5,
+    "message": "nft item not found. tokenId=1382242",
+    "details": [
+      {
+        "@type": "type.googleapis.com/common.errdetails.v1.AppErrorDetail",
+        "traceId": "68e0d8c7000000001c65163f2636c396",
+        "stackEntries": [],
+        "fields": [],
+        "code": ""
+      }
+    ]
+  },
+  {
+    "code": 5,
+    "message": "nft item not found. tokenId=1113343",
+    "details": [
+      {
+        "@type": "type.googleapis.com/common.errdetails.v1.AppErrorDetail",
+        "traceId": "68e0d8c800000000e22b005a7d301149",
+        "stackEntries": [],
+        "fields": [],
+        "code": ""
+      }
+    ]
+  },
+  {
+    "code": 5,
+    "message": "nft item not found. tokenId=1142551",
+    "details": [
+      {
+        "@type": "type.googleapis.com/common.errdetails.v1.AppErrorDetail",
+        "traceId": "68e0d8c9000000004c63d3a50d08a364",
+        "stackEntries": [],
+        "fields": [],
+        "code": ""
+      }
+    ]
+  },
+  {
+    "code": 5,
+    "message": "nft item not found. tokenId=1162086",
+    "details": [
+      {
+        "@type": "type.googleapis.com/common.errdetails.v1.AppErrorDetail",
+        "traceId": "68e0d8ca000000006934be81d31e7662",
+        "stackEntries": [],
+        "fields": [],
+        "code": ""
+      }
+    ]
+  },
+  {
+    "code": 5,
+    "message": "nft item not found. tokenId=1182305",
+    "details": [
+      {
+        "@type": "type.googleapis.com/common.errdetails.v1.AppErrorDetail",
+        "traceId": "68e0d8cb00000000c61c1a8d27ae3da4",
+        "stackEntries": [],
+        "fields": [],
+        "code": ""
+      }
+    ]
+  },
+  {
+    "tokenId": "8293357732959029126455437315074",
+    "name": "Zakum's Poisonic Staff",
+    "owner": {
+      "walletAddr": "0x096330dFaF8563FF13cF4d2aA108Ba94E45f8CeA",
+      "nickname": "yeliu3337#7747",
+      "isExternalUser": false
+    },
+    "category": {
+      "categoryNo": 1000101006,
+      "label": "Item > Weapon > One-handed Weapon > Staff",
+      "tier0": {
+        "label": "Item",
+        "code": "100"
+      },
+      "tier1": {
+        "label": "Weapon",
+        "code": "01"
+      },
+      "tier2": {
+        "label": "One-handed Weapon",
+        "code": "01"
+      },
+      "tier3": {
+        "label": "Staff",
+        "code": "006"
+      }
+    },
+    "tokenInfo": {
+      "ownerWalletAddr": "0x096330dFaF8563FF13cF4d2aA108Ba94E45f8CeA",
+      "tokenId": "8293357732959029126455437315074",
+      "tokenStandard": "ERC721",
+      "mintingNo": "1623",
+      "tokenType": "items"
+    },
+    "imageUrl": "https://api-static.msu.io/itemimages/icon/1382242.png",
+    "hasSampleImage": false,
+    "sampleImageUrl": "",
+    "assetStatus": "AssetStatus_InGameUse",
+    "mintingStatus": "MintingStatus_Minted",
+    "dataStatus": "DataStatus_OK",
+    "item": {
+      "tokenId": "8293357732959029126455437315074",
+      "name": "Zakum's Poisonic Staff",
+      "category": {
+        "categoryNo": 1000101006,
+        "label": "Item > Weapon > One-handed Weapon > Staff",
+        "tier0": {
+          "label": "Item",
+          "code": "100"
+        },
+        "tier1": {
+          "label": "Weapon",
+          "code": "01"
+        },
+        "tier2": {
+          "label": "One-handed Weapon",
+          "code": "01"
+        },
+        "tier3": {
+          "label": "Staff",
+          "code": "006"
+        }
+      },
+      "common": {
+        "name": "Zakum's Poisonic Staff",
+        "itemId": 1382242,
+        "desc": "",
+        "isCash": false,
+        "mintable": true,
+        "isSbt": false,
+        "wearable": true,
+        "isOnly": false,
+        "isOnlyEquip": false,
+        "isBossReward": true,
+        "blockUpgradeStarforce": false,
+        "blockUpgradePotential": false,
+        "blockUpgradeExtraOption": false,
+        "enableStarforce": true,
+        "maxStarforce": 10,
+        "slotMax": 0,
+        "ridingSkill": 0
+      },
+      "required": {
+        "level": 110,
+        "str": 0,
+        "dex": 0,
+        "int": 333,
+        "luk": 0,
+        "job": {
+          "classCode": 2,
+          "className": "Magician",
+          "jobCode": 0,
+          "jobName": "Magician"
+        }
+      },
+      "stats": {
+        "cuc": 0,
+        "ruc": 7,
+        "levelReduced": 0,
+        "attackSpeed": 8,
+        "knockback": 0,
+        "int": {
+          "total": 25,
+          "base": 0,
+          "enhance": 25,
+          "extra": 0
+        },
+        "luk": {
+          "total": 25,
+          "base": 0,
+          "enhance": 25,
+          "extra": 0
+        },
+        "maxHp": {
+          "total": 130,
+          "base": 0,
+          "enhance": 130,
+          "extra": 0
+        },
+        "maxMp": {
+          "total": 130,
+          "base": 0,
+          "enhance": 130,
+          "extra": 0
+        },
+        "pad": {
+          "total": 104,
+          "base": 83,
+          "enhance": 21,
+          "extra": 0
+        },
+        "mad": {
+          "total": 163,
+          "base": 130,
+          "enhance": 33,
+          "extra": 0
+        },
+        "bdr": {
+          "total": 10,
+          "base": 10,
+          "enhance": 0,
+          "extra": 0
+        },
+        "recoveryHp": 0,
+        "recoveryMp": 0,
+        "senseExp": 0,
+        "willExp": 0,
+        "insightExp": 0,
+        "charismaExp": 0,
+        "charmExp": 0,
+        "craftExp": 0
+      },
+      "enhance": {
+        "starforce": {
+          "enhanced": 10,
+          "maxStarforce": 10
+        },
+        "potential": {
+          "option1": {
+            "label": "5% Chance to apply Lv. 2 Stun when attacking.",
+            "code": 10226,
+            "grade": 1
+          },
+          "option2": {
+            "label": "INT: +6",
+            "code": 3,
+            "grade": 0
+          },
+          "option3": {
+            "label": "INT: +6",
+            "code": 3,
+            "grade": 0
+          }
+        },
+        "bonusPotential": {
+          "option1": {
+            "label": "Damage: +3%",
+            "code": 12070,
+            "grade": 1
+          },
+          "option2": {
+            "label": "Max MP: +55",
+            "code": 2006,
+            "grade": 0
+          },
+          "option3": {
+            "label": "INT: +6",
+            "code": 2003,
+            "grade": 0
+          }
+        }
+      }
+    },
+    "additionalInfo": {
+      "viewCount": "64",
+      "bookmarkCount": "0"
+    },
+    "updatedAt": "2025-08-27T11:15:00.742Z",
+    "assetKey": "ITEMd2mkhemblq7c738c0h60"
+  },
+  {
+    "tokenId": "8293357732959029126455437315074",
+    "name": "Zakum's Poisonic Staff",
+    "owner": {
+      "walletAddr": "0x096330dFaF8563FF13cF4d2aA108Ba94E45f8CeA",
+      "nickname": "yeliu3337#7747",
+      "isExternalUser": false
+    },
+    "category": {
+      "categoryNo": 1000101006,
+      "label": "Item > Weapon > One-handed Weapon > Staff",
+      "tier0": {
+        "label": "Item",
+        "code": "100"
+      },
+      "tier1": {
+        "label": "Weapon",
+        "code": "01"
+      },
+      "tier2": {
+        "label": "One-handed Weapon",
+        "code": "01"
+      },
+      "tier3": {
+        "label": "Staff",
+        "code": "006"
+      }
+    },
+    "tokenInfo": {
+      "ownerWalletAddr": "0x096330dFaF8563FF13cF4d2aA108Ba94E45f8CeA",
+      "tokenId": "8293357732959029126455437315074",
+      "tokenStandard": "ERC721",
+      "mintingNo": "1623",
+      "tokenType": "items"
+    },
+    "imageUrl": "https://api-static.msu.io/itemimages/icon/1382242.png",
+    "hasSampleImage": false,
+    "sampleImageUrl": "",
+    "assetStatus": "AssetStatus_InGameUse",
+    "mintingStatus": "MintingStatus_Minted",
+    "dataStatus": "DataStatus_OK",
+    "item": {
+      "tokenId": "8293357732959029126455437315074",
+      "name": "Zakum's Poisonic Staff",
+      "category": {
+        "categoryNo": 1000101006,
+        "label": "Item > Weapon > One-handed Weapon > Staff",
+        "tier0": {
+          "label": "Item",
+          "code": "100"
+        },
+        "tier1": {
+          "label": "Weapon",
+          "code": "01"
+        },
+        "tier2": {
+          "label": "One-handed Weapon",
+          "code": "01"
+        },
+        "tier3": {
+          "label": "Staff",
+          "code": "006"
+        }
+      },
+      "common": {
+        "name": "Zakum's Poisonic Staff",
+        "itemId": 1382242,
+        "desc": "",
+        "isCash": false,
+        "mintable": true,
+        "isSbt": false,
+        "wearable": true,
+        "isOnly": false,
+        "isOnlyEquip": false,
+        "isBossReward": true,
+        "blockUpgradeStarforce": false,
+        "blockUpgradePotential": false,
+        "blockUpgradeExtraOption": false,
+        "enableStarforce": true,
+        "maxStarforce": 10,
+        "slotMax": 0,
+        "ridingSkill": 0
+      },
+      "required": {
+        "level": 110,
+        "str": 0,
+        "dex": 0,
+        "int": 333,
+        "luk": 0,
+        "job": {
+          "classCode": 2,
+          "className": "Magician",
+          "jobCode": 0,
+          "jobName": "Magician"
+        }
+      },
+      "stats": {
+        "cuc": 0,
+        "ruc": 7,
+        "levelReduced": 0,
+        "attackSpeed": 8,
+        "knockback": 0,
+        "int": {
+          "total": 25,
+          "base": 0,
+          "enhance": 25,
+          "extra": 0
+        },
+        "luk": {
+          "total": 25,
+          "base": 0,
+          "enhance": 25,
+          "extra": 0
+        },
+        "maxHp": {
+          "total": 130,
+          "base": 0,
+          "enhance": 130,
+          "extra": 0
+        },
+        "maxMp": {
+          "total": 130,
+          "base": 0,
+          "enhance": 130,
+          "extra": 0
+        },
+        "pad": {
+          "total": 104,
+          "base": 83,
+          "enhance": 21,
+          "extra": 0
+        },
+        "mad": {
+          "total": 163,
+          "base": 130,
+          "enhance": 33,
+          "extra": 0
+        },
+        "bdr": {
+          "total": 10,
+          "base": 10,
+          "enhance": 0,
+          "extra": 0
+        },
+        "recoveryHp": 0,
+        "recoveryMp": 0,
+        "senseExp": 0,
+        "willExp": 0,
+        "insightExp": 0,
+        "charismaExp": 0,
+        "charmExp": 0,
+        "craftExp": 0
+      },
+      "enhance": {
+        "starforce": {
+          "enhanced": 10,
+          "maxStarforce": 10
+        },
+        "potential": {
+          "option1": {
+            "label": "5% Chance to apply Lv. 2 Stun when attacking.",
+            "code": 10226,
+            "grade": 1
+          },
+          "option2": {
+            "label": "INT: +6",
+            "code": 3,
+            "grade": 0
+          },
+          "option3": {
+            "label": "INT: +6",
+            "code": 3,
+            "grade": 0
+          }
+        },
+        "bonusPotential": {
+          "option1": {
+            "label": "Damage: +3%",
+            "code": 12070,
+            "grade": 1
+          },
+          "option2": {
+            "label": "Max MP: +55",
+            "code": 2006,
+            "grade": 0
+          },
+          "option3": {
+            "label": "INT: +6",
+            "code": 2003,
+            "grade": 0
+          }
+        }
+      }
+    },
+    "additionalInfo": {
+      "viewCount": "66",
+      "bookmarkCount": "0"
+    },
+    "updatedAt": "2025-08-27T11:15:00.742Z",
+    "assetKey": "ITEMd2mkhemblq7c738c0h60"
+  },
+  {
+    "tokenId": "8258581869050046566275899509762",
+    "name": "Royal Von Leon Dagger",
+    "owner": {
+      "walletAddr": "0x5Aa7790C4861554a233223cD45199B5564205840",
+      "nickname": "rtzxrtzx#5358",
+      "isExternalUser": false
+    },
+    "category": {
+      "categoryNo": 1000101004,
+      "label": "Item > Weapon > One-handed Weapon > Dagger",
+      "tier0": {
+        "label": "Item",
+        "code": "100"
+      },
+      "tier1": {
+        "label": "Weapon",
+        "code": "01"
+      },
+      "tier2": {
+        "label": "One-handed Weapon",
+        "code": "01"
+      },
+      "tier3": {
+        "label": "Dagger",
+        "code": "004"
+      }
+    },
+    "tokenInfo": {
+      "ownerWalletAddr": "0x5Aa7790C4861554a233223cD45199B5564205840",
+      "tokenId": "8258581869050046566275899509762",
+      "tokenStandard": "ERC721",
+      "mintingNo": "282",
+      "tokenType": "items"
+    },
+    "imageUrl": "https://api-static.msu.io/itemimages/icon/1332261.png",
+    "hasSampleImage": false,
+    "sampleImageUrl": "",
+    "assetStatus": "AssetStatus_OnSale",
+    "mintingStatus": "MintingStatus_Minted",
+    "dataStatus": "DataStatus_OK",
+    "item": {
+      "tokenId": "8258581869050046566275899509762",
+      "name": "Royal Von Leon Dagger",
+      "category": {
+        "categoryNo": 1000101004,
+        "label": "Item > Weapon > One-handed Weapon > Dagger",
+        "tier0": {
+          "label": "Item",
+          "code": "100"
+        },
+        "tier1": {
+          "label": "Weapon",
+          "code": "01"
+        },
+        "tier2": {
+          "label": "One-handed Weapon",
+          "code": "01"
+        },
+        "tier3": {
+          "label": "Dagger",
+          "code": "004"
+        }
+      },
+      "common": {
+        "name": "Royal Von Leon Dagger",
+        "itemId": 1332261,
+        "desc": "",
+        "isCash": false,
+        "mintable": true,
+        "isSbt": false,
+        "wearable": true,
+        "isOnly": false,
+        "isOnlyEquip": false,
+        "isBossReward": true,
+        "blockUpgradeStarforce": false,
+        "blockUpgradePotential": false,
+        "blockUpgradeExtraOption": false,
+        "enableStarforce": true,
+        "maxStarforce": 20,
+        "slotMax": 0,
+        "ridingSkill": 0
+      },
+      "required": {
+        "level": 130,
+        "str": 0,
+        "dex": 0,
+        "int": 0,
+        "luk": 290,
+        "job": {
+          "classCode": 8,
+          "className": "Thief",
+          "jobCode": 0,
+          "jobName": "Thief"
+        }
+      },
+      "stats": {
+        "cuc": 0,
+        "ruc": 8,
+        "levelReduced": 15,
+        "attackSpeed": 4,
+        "knockback": 0,
+        "dex": {
+          "total": 40,
+          "base": 0,
+          "enhance": 40,
+          "extra": 0
+        },
+        "luk": {
+          "total": 46,
+          "base": 6,
+          "enhance": 40,
+          "extra": 0
+        },
+        "maxHp": {
+          "total": 1815,
+          "base": 0,
+          "enhance": 255,
+          "extra": 1560
+        },
+        "maxMp": {
+          "total": 255,
+          "base": 0,
+          "enhance": 255,
+          "extra": 0
+        },
+        "pad": {
+          "total": 162,
+          "base": 114,
+          "enhance": 48,
+          "extra": 0
+        },
+        "damr": {
+          "total": 5,
+          "base": 0,
+          "enhance": 0,
+          "extra": 5
+        },
+        "statr": {
+          "total": 5,
+          "base": 0,
+          "enhance": 0,
+          "extra": 5
+        },
+        "recoveryHp": 0,
+        "recoveryMp": 0,
+        "senseExp": 0,
+        "willExp": 30,
+        "insightExp": 0,
+        "charismaExp": 0,
+        "charmExp": 0,
+        "craftExp": 0
+      },
+      "enhance": {
+        "starforce": {
+          "enhanced": 15,
+          "maxStarforce": 20
+        },
+        "potential": {
+          "option1": {
+            "label": "Boss Monster Damage: +30%",
+            "code": 30602,
+            "grade": 3
+          },
+          "option2": {
+            "label": "ATT: +6%",
+            "code": 20051,
+            "grade": 2
+          },
+          "option3": {
+            "label": "Damage: +6%",
+            "code": 20070,
+            "grade": 2
+          }
+        },
+        "bonusPotential": {
+          "option1": {
+            "label": "ATT: +6%",
+            "code": 22051,
+            "grade": 2
+          },
+          "option2": {
+            "label": "LUK: +12",
+            "code": 12018,
+            "grade": 1
+          },
+          "option3": {
+            "label": "DEX: +12",
+            "code": 12016,
+            "grade": 1
+          }
+        }
+      }
+    },
+    "salesInfo": {
+      "tokenId": "8258581869050046566275899509762",
+      "sellerWalletAddr": "0x5Aa7790C4861554a233223cD45199B5564205840",
+      "createdAt": "2025-10-04T08:46:47Z",
+      "expiredAt": "2025-10-07T08:46:47Z",
+      "priceWei": "5554321000000000000000000",
+      "quantity": "1",
+      "minimumPriceWei": "",
+      "lastTradedPriceWei": ""
+    },
+    "additionalInfo": {
+      "viewCount": "2843",
+      "bookmarkCount": "34"
+    },
+    "updatedAt": "2025-10-04T08:46:50.087Z",
+    "assetKey": "ITEMd0ueljpblh1s73cp5360"
+  },
+  {
+    "tokenId": "8258581869050046566275899509762",
+    "name": "Royal Von Leon Dagger",
+    "owner": {
+      "walletAddr": "0x5Aa7790C4861554a233223cD45199B5564205840",
+      "nickname": "rtzxrtzx#5358",
+      "isExternalUser": false
+    },
+    "category": {
+      "categoryNo": 1000101004,
+      "label": "Item > Weapon > One-handed Weapon > Dagger",
+      "tier0": {
+        "label": "Item",
+        "code": "100"
+      },
+      "tier1": {
+        "label": "Weapon",
+        "code": "01"
+      },
+      "tier2": {
+        "label": "One-handed Weapon",
+        "code": "01"
+      },
+      "tier3": {
+        "label": "Dagger",
+        "code": "004"
+      }
+    },
+    "tokenInfo": {
+      "ownerWalletAddr": "0x5Aa7790C4861554a233223cD45199B5564205840",
+      "tokenId": "8258581869050046566275899509762",
+      "tokenStandard": "ERC721",
+      "mintingNo": "282",
+      "tokenType": "items"
+    },
+    "imageUrl": "https://api-static.msu.io/itemimages/icon/1332261.png",
+    "hasSampleImage": false,
+    "sampleImageUrl": "",
+    "assetStatus": "AssetStatus_OnSale",
+    "mintingStatus": "MintingStatus_Minted",
+    "dataStatus": "DataStatus_OK",
+    "item": {
+      "tokenId": "8258581869050046566275899509762",
+      "name": "Royal Von Leon Dagger",
+      "category": {
+        "categoryNo": 1000101004,
+        "label": "Item > Weapon > One-handed Weapon > Dagger",
+        "tier0": {
+          "label": "Item",
+          "code": "100"
+        },
+        "tier1": {
+          "label": "Weapon",
+          "code": "01"
+        },
+        "tier2": {
+          "label": "One-handed Weapon",
+          "code": "01"
+        },
+        "tier3": {
+          "label": "Dagger",
+          "code": "004"
+        }
+      },
+      "common": {
+        "name": "Royal Von Leon Dagger",
+        "itemId": 1332261,
+        "desc": "",
+        "isCash": false,
+        "mintable": true,
+        "isSbt": false,
+        "wearable": true,
+        "isOnly": false,
+        "isOnlyEquip": false,
+        "isBossReward": true,
+        "blockUpgradeStarforce": false,
+        "blockUpgradePotential": false,
+        "blockUpgradeExtraOption": false,
+        "enableStarforce": true,
+        "maxStarforce": 20,
+        "slotMax": 0,
+        "ridingSkill": 0
+      },
+      "required": {
+        "level": 130,
+        "str": 0,
+        "dex": 0,
+        "int": 0,
+        "luk": 290,
+        "job": {
+          "classCode": 8,
+          "className": "Thief",
+          "jobCode": 0,
+          "jobName": "Thief"
+        }
+      },
+      "stats": {
+        "cuc": 0,
+        "ruc": 8,
+        "levelReduced": 15,
+        "attackSpeed": 4,
+        "knockback": 0,
+        "dex": {
+          "total": 40,
+          "base": 0,
+          "enhance": 40,
+          "extra": 0
+        },
+        "luk": {
+          "total": 46,
+          "base": 6,
+          "enhance": 40,
+          "extra": 0
+        },
+        "maxHp": {
+          "total": 1815,
+          "base": 0,
+          "enhance": 255,
+          "extra": 1560
+        },
+        "maxMp": {
+          "total": 255,
+          "base": 0,
+          "enhance": 255,
+          "extra": 0
+        },
+        "pad": {
+          "total": 162,
+          "base": 114,
+          "enhance": 48,
+          "extra": 0
+        },
+        "damr": {
+          "total": 5,
+          "base": 0,
+          "enhance": 0,
+          "extra": 5
+        },
+        "statr": {
+          "total": 5,
+          "base": 0,
+          "enhance": 0,
+          "extra": 5
+        },
+        "recoveryHp": 0,
+        "recoveryMp": 0,
+        "senseExp": 0,
+        "willExp": 30,
+        "insightExp": 0,
+        "charismaExp": 0,
+        "charmExp": 0,
+        "craftExp": 0
+      },
+      "enhance": {
+        "starforce": {
+          "enhanced": 15,
+          "maxStarforce": 20
+        },
+        "potential": {
+          "option1": {
+            "label": "Boss Monster Damage: +30%",
+            "code": 30602,
+            "grade": 3
+          },
+          "option2": {
+            "label": "ATT: +6%",
+            "code": 20051,
+            "grade": 2
+          },
+          "option3": {
+            "label": "Damage: +6%",
+            "code": 20070,
+            "grade": 2
+          }
+        },
+        "bonusPotential": {
+          "option1": {
+            "label": "ATT: +6%",
+            "code": 22051,
+            "grade": 2
+          },
+          "option2": {
+            "label": "LUK: +12",
+            "code": 12018,
+            "grade": 1
+          },
+          "option3": {
+            "label": "DEX: +12",
+            "code": 12016,
+            "grade": 1
+          }
+        }
+      }
+    },
+    "salesInfo": {
+      "tokenId": "8258581869050046566275899509762",
+      "sellerWalletAddr": "0x5Aa7790C4861554a233223cD45199B5564205840",
+      "createdAt": "2025-10-04T08:46:47Z",
+      "expiredAt": "2025-10-07T08:46:47Z",
+      "priceWei": "5554321000000000000000000",
+      "quantity": "1",
+      "minimumPriceWei": "",
+      "lastTradedPriceWei": ""
+    },
+    "additionalInfo": {
+      "viewCount": "2844",
+      "bookmarkCount": "34"
+    },
+    "updatedAt": "2025-10-04T08:46:50.087Z",
+    "assetKey": "ITEMd0ueljpblh1s73cp5360"
+  },
+  {
+    "tokenId": "8258581869050046566275899509762",
+    "name": "Royal Von Leon Dagger",
+    "owner": {
+      "walletAddr": "0x5Aa7790C4861554a233223cD45199B5564205840",
+      "nickname": "rtzxrtzx#5358",
+      "isExternalUser": false
+    },
+    "category": {
+      "categoryNo": 1000101004,
+      "label": "Item > Weapon > One-handed Weapon > Dagger",
+      "tier0": {
+        "label": "Item",
+        "code": "100"
+      },
+      "tier1": {
+        "label": "Weapon",
+        "code": "01"
+      },
+      "tier2": {
+        "label": "One-handed Weapon",
+        "code": "01"
+      },
+      "tier3": {
+        "label": "Dagger",
+        "code": "004"
+      }
+    },
+    "tokenInfo": {
+      "ownerWalletAddr": "0x5Aa7790C4861554a233223cD45199B5564205840",
+      "tokenId": "8258581869050046566275899509762",
+      "tokenStandard": "ERC721",
+      "mintingNo": "282",
+      "tokenType": "items"
+    },
+    "imageUrl": "https://api-static.msu.io/itemimages/icon/1332261.png",
+    "hasSampleImage": false,
+    "sampleImageUrl": "",
+    "assetStatus": "AssetStatus_OnSale",
+    "mintingStatus": "MintingStatus_Minted",
+    "dataStatus": "DataStatus_OK",
+    "item": {
+      "tokenId": "8258581869050046566275899509762",
+      "name": "Royal Von Leon Dagger",
+      "category": {
+        "categoryNo": 1000101004,
+        "label": "Item > Weapon > One-handed Weapon > Dagger",
+        "tier0": {
+          "label": "Item",
+          "code": "100"
+        },
+        "tier1": {
+          "label": "Weapon",
+          "code": "01"
+        },
+        "tier2": {
+          "label": "One-handed Weapon",
+          "code": "01"
+        },
+        "tier3": {
+          "label": "Dagger",
+          "code": "004"
+        }
+      },
+      "common": {
+        "name": "Royal Von Leon Dagger",
+        "itemId": 1332261,
+        "desc": "",
+        "isCash": false,
+        "mintable": true,
+        "isSbt": false,
+        "wearable": true,
+        "isOnly": false,
+        "isOnlyEquip": false,
+        "isBossReward": true,
+        "blockUpgradeStarforce": false,
+        "blockUpgradePotential": false,
+        "blockUpgradeExtraOption": false,
+        "enableStarforce": true,
+        "maxStarforce": 20,
+        "slotMax": 0,
+        "ridingSkill": 0
+      },
+      "required": {
+        "level": 130,
+        "str": 0,
+        "dex": 0,
+        "int": 0,
+        "luk": 290,
+        "job": {
+          "classCode": 8,
+          "className": "Thief",
+          "jobCode": 0,
+          "jobName": "Thief"
+        }
+      },
+      "stats": {
+        "cuc": 0,
+        "ruc": 8,
+        "levelReduced": 15,
+        "attackSpeed": 4,
+        "knockback": 0,
+        "dex": {
+          "total": 40,
+          "base": 0,
+          "enhance": 40,
+          "extra": 0
+        },
+        "luk": {
+          "total": 46,
+          "base": 6,
+          "enhance": 40,
+          "extra": 0
+        },
+        "maxHp": {
+          "total": 1815,
+          "base": 0,
+          "enhance": 255,
+          "extra": 1560
+        },
+        "maxMp": {
+          "total": 255,
+          "base": 0,
+          "enhance": 255,
+          "extra": 0
+        },
+        "pad": {
+          "total": 162,
+          "base": 114,
+          "enhance": 48,
+          "extra": 0
+        },
+        "damr": {
+          "total": 5,
+          "base": 0,
+          "enhance": 0,
+          "extra": 5
+        },
+        "statr": {
+          "total": 5,
+          "base": 0,
+          "enhance": 0,
+          "extra": 5
+        },
+        "recoveryHp": 0,
+        "recoveryMp": 0,
+        "senseExp": 0,
+        "willExp": 30,
+        "insightExp": 0,
+        "charismaExp": 0,
+        "charmExp": 0,
+        "craftExp": 0
+      },
+      "enhance": {
+        "starforce": {
+          "enhanced": 15,
+          "maxStarforce": 20
+        },
+        "potential": {
+          "option1": {
+            "label": "Boss Monster Damage: +30%",
+            "code": 30602,
+            "grade": 3
+          },
+          "option2": {
+            "label": "ATT: +6%",
+            "code": 20051,
+            "grade": 2
+          },
+          "option3": {
+            "label": "Damage: +6%",
+            "code": 20070,
+            "grade": 2
+          }
+        },
+        "bonusPotential": {
+          "option1": {
+            "label": "ATT: +6%",
+            "code": 22051,
+            "grade": 2
+          },
+          "option2": {
+            "label": "LUK: +12",
+            "code": 12018,
+            "grade": 1
+          },
+          "option3": {
+            "label": "DEX: +12",
+            "code": 12016,
+            "grade": 1
+          }
+        }
+      }
+    },
+    "salesInfo": {
+      "tokenId": "8258581869050046566275899509762",
+      "sellerWalletAddr": "0x5Aa7790C4861554a233223cD45199B5564205840",
+      "createdAt": "2025-10-04T08:46:47Z",
+      "expiredAt": "2025-10-07T08:46:47Z",
+      "priceWei": "5554321000000000000000000",
+      "quantity": "1",
+      "minimumPriceWei": "",
+      "lastTradedPriceWei": ""
+    },
+    "additionalInfo": {
+      "viewCount": "2844",
+      "bookmarkCount": "34"
+    },
+    "updatedAt": "2025-10-04T08:46:50.087Z",
+    "assetKey": "ITEMd0ueljpblh1s73cp5360"
+  }
+]

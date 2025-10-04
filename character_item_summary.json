@@ -1,0 +1,112 @@
+[
+  {
+    "characterTokenId": "64897795284690039177577523008968395724317974413",
+    "characterLink": "https://msu.io/marketplace/character/39064575453151412542476528546271893482119561317",
+    "items": [
+      {
+        "itemTokenId": "8293357732959029126455437315074",
+        "itemLink": "https://msu.io/marketplace/nft/8293357732959029126455437315074",
+        "priceWei": "0",
+        "priceEth": 0
+      }
+    ]
+  },
+  {
+    "characterTokenId": "994396229136606714232187953051925637384787842725",
+    "characterLink": "https://msu.io/marketplace/character/39064575453151412542476528546271893482119561317",
+    "items": [
+      {
+        "itemTokenId": "8293357732959029126455437315074",
+        "itemLink": "https://msu.io/marketplace/nft/8293357732959029126455437315074",
+        "priceWei": "0",
+        "priceEth": 0
+      }
+    ]
+  },
+  {
+    "characterTokenId": "8894123097386560421281220390614258739694412956",
+    "characterLink": "https://msu.io/marketplace/character/39064575453151412542476528546271893482119561317",
+    "items": [
+      {
+        "itemTokenId": "8293357732959029126455437315074",
+        "itemLink": "https://msu.io/marketplace/nft/8258581869050046566275899509762",
+        "priceWei": "5554321000000000000000000",
+        "priceEth": 5554321
+      }
+    ]
+  },
+  {
+    "characterTokenId": "99278466180847505374605204812881236051358869658",
+    "characterLink": "https://msu.io/marketplace/character/39064575453151412542476528546271893482119561317",
+    "items": [
+      {
+        "itemTokenId": "8293357732959029126455437315074",
+        "itemLink": "https://msu.io/marketplace/nft/8258581869050046566275899509762",
+        "priceWei": "5554321000000000000000000",
+        "priceEth": 5554321
+      }
+    ]
+  },
+  {
+    "characterTokenId": "877480250435536695811749549119174620632307722879",
+    "characterLink": "https://msu.io/marketplace/character/39064575453151412542476528546271893482119561317",
+    "items": [
+      {
+        "itemTokenId": "8293357732959029126455437315074",
+        "itemLink": "https://msu.io/marketplace/nft/8258581869050046566275899509762",
+        "priceWei": "5554321000000000000000000",
+        "priceEth": 5554321
+      }
+    ]
+  },
+  {
+    "characterTokenId": "288206356233786177406384691366818046132718321031",
+    "characterLink": "https://msu.io/marketplace/character/288206356233786177406384691366818046132718321031",
+    "items": []
+  },
+  {
+    "characterTokenId": "1093716434559494674197203685144665212651753707423",
+    "characterLink": "https://msu.io/marketplace/character/1093716434559494674197203685144665212651753707423",
+    "items": []
+  },
+  {
+    "characterTokenId": "864517667439678457295107236555972432247214930278",
+    "characterLink": "https://msu.io/marketplace/character/864517667439678457295107236555972432247214930278",
+    "items": []
+  },
+  {
+    "characterTokenId": "838782008925546891799523334082340025445313164401",
+    "characterLink": "https://msu.io/marketplace/character/838782008925546891799523334082340025445313164401",
+    "items": []
+  },
+  {
+    "characterTokenId": "142346686742920180490051866880144410802319842564",
+    "characterLink": "https://msu.io/marketplace/character/142346686742920180490051866880144410802319842564",
+    "items": []
+  },
+  {
+    "characterTokenId": "1201610519499456656237059031078347561300341334447",
+    "characterLink": "https://msu.io/marketplace/character/1201610519499456656237059031078347561300341334447",
+    "items": []
+  },
+  {
+    "characterTokenId": "932107145577697792804752264132021576291794109704",
+    "characterLink": "https://msu.io/marketplace/character/932107145577697792804752264132021576291794109704",
+    "items": []
+  },
+  {
+    "characterTokenId": "1306436683090986848584432549027619360135405791534",
+    "characterLink": "https://msu.io/marketplace/character/1306436683090986848584432549027619360135405791534",
+    "items": []
+  },
+  {
+    "characterTokenId": "1378447175343484487538424131645812755793945111422",
+    "characterLink": "https://msu.io/marketplace/character/1378447175343484487538424131645812755793945111422",
+    "items": []
+  },
+  {
+    "characterTokenId": "396896876169743408308826353969148136187908973083",
+    "characterLink": "https://msu.io/marketplace/character/396896876169743408308826353969148136187908973083",
+    "items": []
+  }
+]
