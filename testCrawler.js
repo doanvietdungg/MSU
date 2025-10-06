@@ -21,99 +21,46 @@ const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
     const page = await browser.newPage();
     let allCharacters = [];
 
-  // === BẮT LIST TỪ API EXPLORE ===
-  const onResponseList = async (response) => {
-    const url = response.url();
-    if (
-      url === "https://msu.io/marketplace/api/marketplace/explore/characters"
-    ) {
-      try {
-        const data = await response.json();
-        const items = data?.characters || data?.data?.items || [];
-        console.log(`📄 API list trả về ${items.length} nhân vật`);
-        allCharacters = items;
-        fs.writeFileSync("characters.json", JSON.stringify(items, null, 2));
-        console.log("💾 Đã lưu danh sách vào characters.json");
+    // === BẮT LIST TỪ API EXPLORE ===
+    const onResponseList = async (response) => {
+      const url = response.url();
+      if (
+        url === "https://msu.io/marketplace/api/marketplace/explore/characters"
+      ) {
+        try {
+          const data = await response.json();
+          const items = data?.characters || data?.data?.items || [];
+          console.log(`📄 API list trả về ${items.length} nhân vật`);
+          allCharacters = items;
 
-        page.off("response", onResponseList);
-      } catch (err) {
-        console.log("❌ Không parse được JSON khi lấy list, nghỉ 5s...");
-        await delay(5000);
+          page.off("response", onResponseList);
+        } catch (err) {
+          console.log("❌ Không parse được JSON khi lấy list, nghỉ 5s...");
+          await delay(5000);
+        }
       }
-    }
-  };
+    };
 
-  page.on("response", onResponseList);
+    page.on("response", onResponseList);
 
-  await page.goto("https://msu.io/marketplace/character", {
-    waitUntil: "networkidle2",
-  });
-  await delay(5000);
+    await page.goto("https://msu.io/marketplace/character", {
+      waitUntil: "networkidle2",
+    });
+    await delay(5000);
 
-  // Crawl 10 nhân vật đầu tiên, nhưng sẽ lặp lại 10 lần
-  const charactersToCrawl = allCharacters.slice(0, 10);
-  const TOTAL_CYCLES = 10; // Crawl 10 lần
-  const CHARACTERS_PER_CYCLE = charactersToCrawl.length;
+    // Chỉ crawl 20 nhân vật đầu tiên
+    const charactersToCrawl = allCharacters.slice(0, 20);
+    console.log(`👉 Bắt đầu crawl ${charactersToCrawl.length} nhân vật đầu tiên...`);
 
-  console.log(
-    `👉 Bắt đầu crawl ${TOTAL_CYCLES} chu kỳ, mỗi chu kỳ ${CHARACTERS_PER_CYCLE} nhân vật...`
-  );
-
-  const filename = "characters_detailed.json";
-  let existing = [];
-  if (fs.existsSync(filename)) {
-    existing = JSON.parse(fs.readFileSync(filename));
-  }
-
-  // === Load checkpoint index ===
-  let checkpoint = 0;
-  if (fs.existsSync("checkpoint.json")) {
-    checkpoint = JSON.parse(fs.readFileSync("checkpoint.json"));
-    console.log(`⏩ Tiếp tục từ index ${checkpoint}`);
-  }
-
-  // Reset checkpoint nếu vượt quá tổng số nhân vật cần crawl
-  const totalCharactersToProcess = TOTAL_CYCLES * CHARACTERS_PER_CYCLE;
-  if (checkpoint >= totalCharactersToProcess) {
-    checkpoint = 0;
-    console.log(`🔄 Checkpoint vượt quá giới hạn, reset về 0`);
-  }
-
-  // Tính toán chu kỳ hiện tại
-  const currentCycle = Math.floor(checkpoint / CHARACTERS_PER_CYCLE) + 1;
-  const currentCycleProgress = checkpoint % CHARACTERS_PER_CYCLE;
-
-  console.log(`🔄 Chu kỳ hiện tại: ${currentCycle}/${TOTAL_CYCLES}`);
-  console.log(`📊 Tiến độ trong chu kỳ: ${currentCycleProgress}/${CHARACTERS_PER_CYCLE}`);
-  console.log(`🎯 Sẽ crawl từ index ${checkpoint} đến ${totalCharactersToProcess - 1} (${totalCharactersToProcess - checkpoint} nhân vật)`);
-
-  // === File tổng hợp nhân vật + vật phẩm ===
-  const summaryFile = "character_item_summary.json";
-  let summaryData = [];
-  if (fs.existsSync(summaryFile)) {
-    try {
-      const raw = fs.readFileSync(summaryFile, "utf8").trim();
-      summaryData = raw ? JSON.parse(raw) : [];
-    } catch {
-      console.log("⚠️ File summary bị lỗi, tạo mới.");
-      summaryData = [];
-    }
-  }
-
-  // === TỐI ƯU: CHẠY SONG SONG ===
-  const CONCURRENT_LIMIT = 1; // Giảm xuống 1 để tránh 429
-  const BATCH_SIZE = 1; // Giảm batch size
-  const REQUEST_DELAY = 5000; // 5 giây delay giữa các request
+    // Delay giữa các request
+    const REQUEST_DELAY = 5000; // 5 giây delay giữa các request
 
   const crawlCharacter = async (char, index) => {
     const tokenId = char.tokenId;
     const detailUrl = `https://msu.io/marketplace/character/${tokenId}`;
     const expectUrl = `https://msu.io/marketplace/api/marketplace/characters/${tokenId}`;
 
-    const globalIndex = index + 1;
-    const currentCycle = Math.floor(index / CHARACTERS_PER_CYCLE) + 1;
-    const cycleProgress = (index % CHARACTERS_PER_CYCLE) + 1;
-    console.log(`🔎 [${globalIndex}/${totalCharactersToProcess}] Chu kỳ ${currentCycle}/${TOTAL_CYCLES} - Nhân vật ${cycleProgress}/${CHARACTERS_PER_CYCLE} - Đang mở ${detailUrl}`);
+    console.log(`🔎 [${index + 1}/${charactersToCrawl.length}] Đang mở ${detailUrl}`);
     let detailJson = null;
     let retryCount = 0;
     const maxRetries = 5;
@@ -170,7 +117,7 @@ const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
       characterTokenId: tokenId,
       characterLink: detailUrl,
       characterPriceWei: "0",
-      characterPriceEth: 0,
+      characterPriceNeso: 0,
       items: [],
     };
 
@@ -182,9 +129,23 @@ const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
         detailJson?.data?.salesInfo?.priceWei ||
         null;
       const characterPriceWei = characterPriceWeiMain || "0";
-      const characterPriceEth = Number(characterPriceWei) / 1e18;
+      const characterPriceNeso = Number(characterPriceWei) / 1e18;
       summaryEntry.characterPriceWei = characterPriceWei;
-      summaryEntry.characterPriceEth = characterPriceEth;
+      summaryEntry.characterPriceNeso = characterPriceNeso;
+
+      console.log(`💰 Giá nhân vật ${tokenId}: ${characterPriceNeso} Neso (${characterPriceWei} Wei)`);
+
+      // Check giá nhân vật <= 1000000 Neso trước khi crawl vật phẩm
+      if (characterPriceNeso > 1000000) {
+        console.log(`⏭️ Bỏ qua nhân vật ${tokenId} vì giá ${characterPriceNeso} Neso > 1000000 Neso`);
+        return {
+          detailJson,
+          summaryEntry,
+          itemDetails: [],
+          tokenId,
+          index
+        };
+      }
 
       const equip = detailJson?.character?.wearing?.equip || {};
       const equipTokens = Object.values(equip)
@@ -277,17 +238,17 @@ const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
             console.log(`💰 Lấy giá từ trade history: ${priceFromHistoryWei}`);
           }
 
-          const priceEth = Number(priceWei) / 1e18;
+          const priceNeso = Number(priceWei) / 1e18;
 
           summaryEntry.items.push({
             itemTokenId: itemToken,
             itemLink: itemUrl,
             priceWei,
-            priceEth,
+            priceNeso,
           });
 
-          if (priceEth > 0) {
-            pricedItems.push({ itemToken, itemUrl, priceEth });
+          if (priceNeso > 0) {
+            pricedItems.push({ itemToken, itemUrl, priceNeso });
           }
 
           itemDetails.push(itemJsonMain || itemJsonTradeHistory);
@@ -297,11 +258,11 @@ const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
       }
 
       // Send a single consolidated Telegram message per character
-      if (pricedItems.length > 0 && summaryEntry.characterPriceEth <= 1000000) {
+      if (pricedItems.length > 0) {
         const itemsLines = pricedItems
-          .map((it) => `• [${it.itemToken}](${it.itemUrl}) — ${it.priceEth} ETH`)
+          .map((it) => `• [${it.itemToken}](${it.itemUrl}) — ${it.priceNeso} Neso`)
           .join("\n");
-        const msg = `💰 *Tìm thấy vật phẩm có giá!*\n👤 Nhân vật: [${tokenId}](${detailUrl})\n💵 Giá nhân vật: ${summaryEntry.characterPriceEth} ETH\n\n${itemsLines}`;
+        const msg = `💰 *Tìm thấy vật phẩm có giá!*\n👤 Nhân vật: [${tokenId}](${detailUrl})\n💵 Giá nhân vật: ${summaryEntry.characterPriceNeso} Neso\n\n${itemsLines}`;
         sendTelegramMessage(msg);
       }
 
@@ -326,104 +287,36 @@ const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
     }
   };
 
-  // === XỬ LÝ THEO BATCH ===
+  // === CHẠY TUẦN TỰ 20 NHÂN VẬT ĐẦU ===
+  console.log(`🚀 Bắt đầu crawl tuần tự ${charactersToCrawl.length} nhân vật...`);
 
-  for (let batchStart = checkpoint; batchStart < totalCharactersToProcess; batchStart += BATCH_SIZE) {
-    const batchEnd = Math.min(batchStart + BATCH_SIZE, totalCharactersToProcess);
+  for (let i = 0; i < charactersToCrawl.length; i++) {
+    const char = charactersToCrawl[i];
 
-    // Tính toán chu kỳ và index trong chu kỳ
-    const currentBatchCycle = Math.floor(batchStart / CHARACTERS_PER_CYCLE) + 1;
-    const startIndexInCycle = batchStart % CHARACTERS_PER_CYCLE;
-    const endIndexInCycle = Math.min((batchEnd - 1) % CHARACTERS_PER_CYCLE + 1, CHARACTERS_PER_CYCLE);
+    console.log(`⏳ Delay ${REQUEST_DELAY / 1000}s trước khi crawl nhân vật ${i + 1}...`);
+    await delay(REQUEST_DELAY);
 
-    const batch = charactersToCrawl.slice(startIndexInCycle, endIndexInCycle);
-
-    console.log(`🚀 Chu kỳ ${currentBatchCycle}/${TOTAL_CYCLES} - Xử lý batch ${batchStart + 1}-${batchEnd} (${batch.length} nhân vật)`);
-
-    // Chạy tuần tự để tránh 429 (vì CONCURRENT_LIMIT = 1)
-    const results = [];
-    for (let i = 0; i < batch.length; i++) {
-      const char = batch[i];
-      const index = batchStart + i;
-
-      console.log(`⏳ Delay ${REQUEST_DELAY / 1000}s trước khi crawl nhân vật ${index + 1}...`);
-      await delay(REQUEST_DELAY);
-
-      const result = await crawlCharacter(char, index);
-      if (result) {
-        results.push({ status: 'fulfilled', value: result });
-      } else {
-        results.push({ status: 'rejected', reason: `Failed to crawl character ${char.tokenId}` });
-      }
-
-      // Delay thêm sau mỗi nhân vật
-      if (i < batch.length - 1) {
-        console.log(`⏳ Delay thêm 3s giữa các nhân vật...`);
-        await delay(3000);
-      }
+    const result = await crawlCharacter(char, i);
+    if (result) {
+      console.log(`✅ Hoàn thành nhân vật ${i + 1}/${charactersToCrawl.length}`);
+    } else {
+      console.log(`❌ Thất bại nhân vật ${i + 1}/${charactersToCrawl.length}`);
     }
 
-    // === LƯU KẾT QUẢ BATCH ===
-    for (const result of results) {
-      if (result.status === 'fulfilled' && result.value) {
-        const { detailJson, summaryEntry, itemDetails, tokenId, index } = result.value;
-
-        // ✅ Lưu chi tiết nhân vật
-        existing.push(detailJson);
-        console.log(`✅ Đã lưu detail cho tokenId ${tokenId}`);
-
-        // ✅ Lưu file chi tiết item riêng
-        if (itemDetails.length > 0) {
-          const itemsFile = "items_detailed.json";
-          let existingItems = [];
-          if (fs.existsSync(itemsFile)) {
-            try {
-              const raw = fs.readFileSync(itemsFile, "utf8").trim();
-              existingItems = raw ? JSON.parse(raw) : [];
-            } catch {
-              console.log("⚠️ File items_detailed.json bị lỗi, tạo mới.");
-              existingItems = [];
-            }
-          }
-
-          existingItems.push(...itemDetails);
-          fs.writeFileSync(itemsFile, JSON.stringify(existingItems, null, 2));
-          console.log(
-            `💾 Đã lưu ${itemDetails.length} vật phẩm cho nhân vật ${tokenId}`
-          );
-        }
-
-        // ✅ Lưu summary
-        summaryData.push(summaryEntry);
-        console.log(`📦 Đã cập nhật summary cho nhân vật ${tokenId}`);
-      } else if (result.status === 'rejected') {
-        console.log(`❌ Lỗi crawl nhân vật: ${result.reason}`);
-      }
-    }
-
-    // ✅ Lưu checkpoint và files sau mỗi batch
-    fs.writeFileSync(filename, JSON.stringify(existing, null, 2));
-    fs.writeFileSync(summaryFile, JSON.stringify(summaryData, null, 2));
-
-    // Cập nhật checkpoint
-    fs.writeFileSync("checkpoint.json", JSON.stringify(batchEnd));
-
-    console.log(`✅ Hoàn thành batch ${batchStart + 1}-${batchEnd}`);
-
-    // Delay giữa các batch lớn
-    if (batchEnd < totalCharactersToProcess) {
-      console.log(`⏳ Delay 5s giữa các batch...`);
-      await delay(5000); // Tăng delay giữa batch lên 10 giây
+    // Delay thêm sau mỗi nhân vật
+    if (i < charactersToCrawl.length - 1) {
+      console.log(`⏳ Delay thêm 3s giữa các nhân vật...`);
+      await delay(3000);
     }
   }
 
-    console.log(`🎉 Hoàn thành vòng lặp ${loopCounter}!`);
-    console.log(`📊 Đã crawl ${TOTAL_CYCLES} chu kỳ (${totalCharactersToProcess} nhân vật)`);
-    
-    await browser.close();
-    
-    console.log(`⏳ Chờ ${LOOP_DELAY / 1000}s trước khi bắt đầu vòng lặp tiếp theo...`);
-    await delay(LOOP_DELAY);
+  console.log(`🎉 Hoàn thành vòng lặp ${loopCounter}!`);
+  console.log(`📊 Đã crawl ${charactersToCrawl.length} nhân vật`);
+  
+  await browser.close();
+  
+  console.log(`⏳ Chờ ${LOOP_DELAY / 1000}s trước khi bắt đầu vòng lặp tiếp theo...`);
+  await delay(LOOP_DELAY);
   }
 })();
 
