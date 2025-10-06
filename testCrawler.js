@@ -4,13 +4,22 @@ import fs from "fs";
 const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
 (async () => {
-  const browser = await puppeteer.launch({
-    headless: false,
-    defaultViewport: null,
-  });
+  let loopCounter = 0;
+  const LOOP_DELAY = 60000; // 1 phút delay giữa các vòng lặp
 
-  const page = await browser.newPage();
-  let allCharacters = [];
+  console.log(`🚀 Bắt đầu vòng lặp vô hạn với delay ${LOOP_DELAY / 1000}s giữa các vòng...`);
+
+  while (true) {
+    loopCounter++;
+    console.log(`\n🔄 ===== VÒNG LẶP ${loopCounter} =====`);
+    
+    const browser = await puppeteer.launch({
+      headless: false,
+      defaultViewport: null,
+    });
+
+    const page = await browser.newPage();
+    let allCharacters = [];
 
   // === BẮT LIST TỪ API EXPLORE ===
   const onResponseList = async (response) => {
@@ -288,7 +297,7 @@ const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
       }
 
       // Send a single consolidated Telegram message per character
-      if (pricedItems.length > 0) {
+      if (pricedItems.length > 0 && summaryEntry.characterPriceEth <= 1000000) {
         const itemsLines = pricedItems
           .map((it) => `• [${it.itemToken}](${it.itemUrl}) — ${it.priceEth} ETH`)
           .join("\n");
@@ -396,13 +405,8 @@ const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
     fs.writeFileSync(filename, JSON.stringify(existing, null, 2));
     fs.writeFileSync(summaryFile, JSON.stringify(summaryData, null, 2));
 
-    // Reset checkpoint về 0 sau khi crawl xong tất cả chu kỳ
-    if (batchEnd >= totalCharactersToProcess) {
-      fs.writeFileSync("checkpoint.json", JSON.stringify(0));
-      console.log(`🔄 Đã reset checkpoint về 0 sau khi crawl xong ${TOTAL_CYCLES} chu kỳ (${totalCharactersToProcess} nhân vật)`);
-    } else {
-      fs.writeFileSync("checkpoint.json", JSON.stringify(batchEnd));
-    }
+    // Cập nhật checkpoint
+    fs.writeFileSync("checkpoint.json", JSON.stringify(batchEnd));
 
     console.log(`✅ Hoàn thành batch ${batchStart + 1}-${batchEnd}`);
 
@@ -413,10 +417,14 @@ const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
     }
   }
 
-  console.log("🎉 Crawl hoàn tất!");
-  console.log(`📊 Tổng cộng đã crawl ${TOTAL_CYCLES} chu kỳ (${totalCharactersToProcess} nhân vật)`);
-  console.log("🔄 Checkpoint đã được reset về 0 - lần chạy tiếp theo sẽ bắt đầu từ chu kỳ 1");
-  await browser.close();
+    console.log(`🎉 Hoàn thành vòng lặp ${loopCounter}!`);
+    console.log(`📊 Đã crawl ${TOTAL_CYCLES} chu kỳ (${totalCharactersToProcess} nhân vật)`);
+    
+    await browser.close();
+    
+    console.log(`⏳ Chờ ${LOOP_DELAY / 1000}s trước khi bắt đầu vòng lặp tiếp theo...`);
+    await delay(LOOP_DELAY);
+  }
 })();
 
 const TELEGRAM_BOT_TOKEN = "8069462425:AAF_U3Yo-plaL7KZVeQmNAfxHxhFk3UQS0k"; // 🔑 thay bằng token bot
