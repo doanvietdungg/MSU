@@ -133,7 +133,12 @@ const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
       summaryEntry.characterPriceWei = characterPriceWei;
       summaryEntry.characterPriceNeso = characterPriceNeso;
 
+      // Lấy nesoletWei từ character.common.nesoletWei
+      const nesoletWei = detailJson?.character?.common?.nesoletWei || "0";
+      const nesoletNeso = Number(nesoletWei) / 1e18;
+      
       console.log(`💰 Giá nhân vật ${tokenId}: ${characterPriceNeso} Neso (${characterPriceWei} Wei)`);
+      console.log(`💎 Nesolet nhân vật ${tokenId}: ${nesoletNeso} Neso (${nesoletWei} Wei)`);
 
       // Check giá nhân vật <= 1000000 Neso trước khi crawl vật phẩm
       if (characterPriceNeso > 1000000) {
@@ -257,12 +262,17 @@ const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
         }
       }
 
-      // Send a single consolidated Telegram message per character
-      if (pricedItems.length > 0) {
-        const itemsLines = pricedItems
-          .map((it) => `• [${it.itemToken}](${it.itemUrl}) — ${it.priceNeso} Neso`)
-          .join("\n");
-        const msg = `💰 *Tìm thấy vật phẩm có giá!*\n👤 Nhân vật: [${tokenId}](${detailUrl})\n💵 Giá nhân vật: ${summaryEntry.characterPriceNeso} Neso\n\n${itemsLines}`;
+      // Send Telegram message nếu có vật phẩm có giá HOẶC có nesoletWei > 0
+      if (pricedItems.length > 0 || nesoletNeso > 0) {
+        let msg = `💰 *Tìm thấy nhân vật có giá trị!*\n👤 Nhân vật: [${tokenId}](${detailUrl})\n💵 Giá nhân vật: ${summaryEntry.characterPriceNeso} Neso\n💎 Nesolet: ${nesoletNeso} Neso`;
+        
+        if (pricedItems.length > 0) {
+          const itemsLines = pricedItems
+            .map((it) => `• [${it.itemToken}](${it.itemUrl}) — ${it.priceNeso} Neso`)
+            .join("\n");
+          msg += `\n\n🧩 *Vật phẩm có giá:*\n${itemsLines}`;
+        }
+        
         sendTelegramMessage(msg);
       }
 
