@@ -141,8 +141,8 @@ const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
       console.log(`💎 Nesolet nhân vật ${tokenId}: ${nesoletNeso} Neso (${nesoletWei} Wei)`);
 
       // Check giá nhân vật <= 1000000 Neso trước khi crawl vật phẩm
-      if (characterPriceNeso > 1000000) {
-        console.log(`⏭️ Bỏ qua nhân vật ${tokenId} vì giá ${characterPriceNeso} Neso > 1000000 Neso`);
+      if (characterPriceNeso > 700000) {
+        console.log(`⏭️ Bỏ qua nhân vật ${tokenId} vì giá ${characterPriceNeso} Neso > 700000 Neso`);
         return {
           detailJson,
           summaryEntry,
@@ -263,7 +263,7 @@ const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
       }
 
       // Send Telegram message nếu có vật phẩm có giá HOẶC có nesoletWei > 0
-      if (pricedItems.length > 0 || nesoletNeso > 0) {
+      if (pricedItems.length > 0 || (nesoletNeso >= 50000)) {
         let msg = `💰 *Tìm thấy nhân vật có giá trị!*\n👤 Nhân vật: [${tokenId}](${detailUrl})\n💵 Giá nhân vật: ${summaryEntry.characterPriceNeso} Neso\n💎 Nesolet: ${nesoletNeso} Neso`;
         
         if (pricedItems.length > 0) {
